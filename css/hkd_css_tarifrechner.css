@@ -409,7 +409,7 @@
 
 /* abstand label bx angaben */
 .hkd-tarif-eingaben .hkd-bx7 dl dt {
-        width: 319px;
+        width: 229px;
 }
 
 /* angebot und auftrag */
@@ -517,6 +517,8 @@
        padding-left: 0px;
 }
 
+
+
 .hkd-tarif-eingaben .hkd-form-col-2 {
 	    width: 290px;
 	    padding-right: 30px;
@@ -527,7 +529,11 @@
 
 /* mod bx7 */
 .hkd-tarif-eingaben .hkd-bx7 .hkd-form-col-first {
-       width: 340px;
+       width: 250px;
+}
+.hkd-tarif-eingaben .hkd-bx7 .hkd-bx-config {
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 
