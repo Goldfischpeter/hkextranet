@@ -1,0 +1,831 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2013-10-17
+*******************************************************************************/
+
+
+/********************************** Abmessungen *******************************/
+
+/* Tabellenfilter 
+		- Vers-Nr.
+		- Name
+*/
+
+
+
+
+
+input.hkd-form-ts1 {
+	width: 116px;
+}
+/* Dateneingabe - normal */
+input.hkd-form-ts2 {
+	width: 347px;
+}
+/* Dateneingabe - mittel */
+input.hkd-form-ts3 {
+	width: 224px;
+}
+/* Dateneingabe - klein */
+input.hkd-form-ts4 {
+	width: 106px;
+}
+
+/* Dateneingabe - Datum */
+input.hkd-form-ts5 {
+	width: 66px;
+}
+/* Dokumentname */
+input.hkd-form-ts6 {
+	width: 230px;
+}
+/* Vers-Nr */
+input.hkd-form-ts7 {
+	width: 70px;
+}
+/* PLZ */
+input.hkd-form-ts8 {
+	width: 38px;
+}
+
+/* FARBSCHEMA EIGENE */
+input.hkd-form-ts9 {
+	width: 160px;
+}
+
+/* VM-NUMMER */
+input.hkd-form-ts10 {
+	width: 62px;
+}
+
+/* 50% 50% cols */
+input.hkd-form-ts50 {
+	width: 165px;
+}
+
+input.hkd-form-ts100 {
+	width: 100%;
+}
+
+
+input.hkd-form-uhrzeit-std {
+        width: 25px;
+}
+input.hkd-form-uhrzeit-min {
+        width: 25px;
+}
+
+input.hkd-form-datum-tt {
+        width: 20px;
+}
+input.hkd-form-datum-mm {
+        width: 20px;
+}
+input.hkd-form-datum-yyyy {
+        width: 40px;
+}
+
+input.hkd-form-ts-zahl {
+        width: 40px;
+}
+
+input.hkd-form-ts-titel {
+        width: 188px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Dateneingabe - Textarea - normal */
+textarea.hkd-form-ts2 {
+	width: 347px;
+}
+
+
+
+
+
+/* Tabellenfilter - Sparte */
+select.hkd-form-ss1 {
+	width: 204px;
+}
+/* Tabellenfilter - Status */
+select.hkd-form-ss2 {
+	width: 70px;
+}
+/* Tabellenfilter - pro Seite */
+select.hkd-form-ss3 {
+	width: 80px;
+}
+
+/* Dateneingabe */
+select.hkd-form-ss4 {
+	width: 355px;
+}
+
+/* Tabellenfilter - gelesen */
+select.hkd-form-ss5 {
+	width: 44px;
+}
+/* Tabellenfilter - pro Seite */
+select.hkd-form-ss6 {
+	width: 80px;
+}
+/* Tabellenfilter - Kateorie/Sparte */
+select.hkd-form-ss7 {
+	width: 150px;
+}
+/* Datum Defintion (exakt, von, bis) */
+select.hkd-form-ss8 {
+	width: 57px;
+}
+/* Dokumenttyp */
+select.hkd-form-ss9 {
+	width: 190px;
+}
+/* FARBSCHEMA SCHEMA */
+select.hkd-form-ss10 {
+	width: 168px;
+}
+/* TARIF-TYP */
+select.hkd-form-ss11 {
+	width: 144px;
+}
+/* STATUS KURZPORTRAIT */
+select.hkd-form-ss12 {
+	width: 232px;
+}
+/* Anrede */
+select.hkd-form-ss13 {
+	width: 114px;
+}
+/* grouphead */
+select.hkd-form-ss14 {
+	width: 375px;
+}
+select.hkd-form-ss100 {
+        width: 100%;
+}
+#hkd-form-multiple-sparte select.hkd-form-ss100 {
+        /*width: 232px;  neue breite aus test.css*/
+        width: 112px;
+}
+
+/* 
+#hkd-form-multiple-sparte {
+        width: 230px;
+        height: 98px;
+}
+
+*/
+/* neue breite aus test.css */
+#hkd-form-multiple-sparte {
+    height: 98px;
+    width: 112px;
+}
+
+
+#hkd-form-multiple-status {
+        width: 112px;
+}
+
+
+
+
+
+
+
+
+/* Datum */
+select.hkd-form-s-date-d,
+select.hkd-form-s-date-m {
+    width: 40px;   
+}
+select.hkd-form-s-date-y {
+    width: 56px;   
+}
+
+select.hkd-form-s-anrede {
+    width: 114px;   
+}
+select.hkd-form-s-titel {
+    width: 232px;   
+}
+select.hkd-form-s-zeitraum {
+    width: 80px;   
+}
+
+
+select.hkd-form-ts50 {
+    width: 173px;
+}
+
+
+
+
+
+
+/********************************** Suchformular ******************************/
+#hkd-search {
+	float: left;
+	width: 184px;
+}
+#hkd-search input.hkd-form-text {
+	width: 121px;
+	margin-right: 3px;
+	padding: 1px 2px;
+	border: 1px solid #a4c0ce;
+	border-right-color: #eeeded;
+	border-bottom-color: #eeeded;
+}
+#hkd-search input.hkd-form-submit,
+.hkd-form-table-filter input.hkd-form-submit {
+	padding: 0px 2px;
+	background-image: url(../images/hkd_gr3_001_015.gif);
+	background-position: 0px 1px;
+	background-repeat: repeat-x;
+	border: 1px solid #6bb7da;
+}
+
+
+
+
+
+
+/********************************** Allgemein *********************************/
+.hkd-form, 
+.hkd-form-row, 
+.hkd-form-cols,
+.hkd-form-message {
+	float: left;
+	width: 100%;
+}
+.hkd-form legend {
+	font-weight: bold;
+	margin-bottom: 10px; //2013-10-17
+}
+
+.hkd-form-row .hkd-form-cols .hkd-form-col {
+	float: left;
+	margin-left: 9px;
+}
+.hkd-form-row .hkd-form-cols .hkd-form-col-first {
+	margin-left: 0;
+}
+.hkd-form-row .hkd-form-cols .hkd-form-col-last {
+	float: right;
+}
+
+.hkd-form-row .hkd-form-cols .hkd-form-col-left-gap {
+	margin-left: 3px;
+}
+
+.radio-group,
+.checkbox-group {
+        padding: 8px 0 3px 0;
+}
+
+input.hkd-form-text {
+	padding: 3px 3px;
+}
+select.hkd-form-select {
+	padding: 2px 1px;
+}
+textarea.hkd-form-textarea {
+	padding: 3px 3px;
+}
+
+.hkd-form-radio label {
+        margin-top: 0;
+}
+
+
+/*** abstand top */
+.hkd-form-row-gap {
+        margin-top: 20px;
+}
+
+.hkd-fieldset-copy-gap {
+        padding-top: 20px; 
+        float: left;
+}
+
+
+/*** copy text im fieldset */
+p.hkd-fieldset-copy {
+        margin: 0 0 10px 17px;
+}
+
+.hkd-bx4 p.hkd-fieldset-copy {
+        margin: 0 0 10px 0px;
+}
+
+span.counter {
+        
+}
+
+
+
+
+/*** meldungen formulare, tabellen */
+.hkd-form-message {
+    clear: both;
+	float: left;
+	width: 100%;
+}
+
+.hkd-message-box {
+        margin: 0 0 20px 17px;
+        padding: 10px;
+        font-size: 120%;
+        line-height: 1.5em;
+}
+
+
+
+
+
+.hkd-message-confirm {
+        border: 1px solid #97BF83;
+        background-color: #FCFFEF;
+        color: #738F47;
+}
+
+
+
+.hkd-message-ok,
+.hkd-message-error,
+.hkd-message-tipp,
+.hkd-message-confirm,
+.hkd-message-formsend {
+        background-position: 0px 100%;
+        background-repeat: repeat-x;
+        background-color: #fff;
+        padding: 10px;
+}
+
+
+.hkd-message-ok,
+.hkd-message-confirm {
+        border: 1px solid #97BF83;
+        color: #738F47;
+        background-image: url(../images/hkd_message_bg_3.gif);
+}
+
+.hkd-message-ok a,
+.hkd-message-confirm a {
+        color: #738F47;
+        text-decoration: underline;
+}
+
+.hkd-message-error {
+        border: 1px solid #dd8250;
+        color: #b71600;
+        background-image: url(../images/hkd_message_bg_2.gif);
+}
+
+.hkd-message-error a {
+        color: #b71600;
+        text-decoration: underline;
+}
+
+.hkd-message-tipp,
+.hkd-message-formsend {
+        border: 1px solid #cfe2f2;
+        color: #4a7a94;
+        background-image: url(../images/hkd_message_bg_1.gif);
+}
+
+.hkd-message-tipp a,
+.hkd-message-formsend a {
+        color: #4a7a94;
+        text-decoration: underline;
+}
+
+
+
+.hkd-message-ok .hkd-form-message-icon,
+.hkd-message-error .hkd-form-message-icon,
+.hkd-message-confirm .hkd-form-message-icon,
+.hkd-message-tipp .hkd-form-message-icon,
+.hkd-message-formsend .hkd-form-message-icon{
+	background-position: 5px 30%;
+	background-repeat: no-repeat;
+	padding: 25px 10px 24px 92px;
+}
+
+.hkd-message-ok .hkd-form-message-icon,
+.hkd-message-confirm .hkd-form-message-icon {
+    background-image: url(../images/hkd_ic_mess_3.png);
+}
+
+.hkd-message-error .hkd-form-message-icon {
+ 	background-image: url(../images/hkd_ic_mess_2.png);
+}
+
+.hkd-message-error .hkd-form-message-icon {
+ 	background-image: url(../images/hkd_ic_mess_2.png);
+}
+
+.hkd-message-tipp .hkd-form-message-icon,
+.hkd-message-formsend .hkd-form-message-icon{
+ 	background-image: url(../images/hkd_ic_mess_1.png);
+}
+
+
+
+
+
+
+
+
+
+.hkd-grid-ct-d .hkd-form-message {
+   margin-left:-17px;
+}
+
+
+.hkd-tarif-eingaben .hkd-message-box {
+   margin-right: 17px;
+}
+
+
+#hkd-ct2 .hkd-form-message {
+    width: 98.5%;
+}
+
+.hkd-bx5-content .hkd-message-box {
+    width: 688px;
+    display: block;
+}
+
+
+
+.hkd-tarifrechner .hkd-form-message {
+		width: 98.3%; 
+}
+
+
+.hkd-error-mark label,
+.hkd-error-mark input,
+.hkd-error-mark select,
+.hkd-error-mark textarea {
+        color: #b71600;
+}
+
+.hkd-form-data .hkd-error-mark input.hkd-form-text,
+.hkd-form-data .hkd-error-mark select.hkd-form-select,
+.hkd-form-data .hkd-error-mark textarea.hkd-form-textarea {
+        border: 1px solid #dd8250;
+        background-color: #FFF2EF;
+}
+
+
+/* test.css */
+.hkd-error-mark textarea {
+   color: #b71600;
+   border: 1px solid #dd8250;
+   background-color: #FFF2EF;
+}
+
+
+
+
+
+/********************************** Dateneingabe ******************************/
+.hkd-form-data form {
+}
+.hkd-form-data legend, 
+.hkd-form-data .hkd-form-wrapper {
+	padding-left: 17px;
+}
+
+
+.hkd-form-data .hkd-form-wrapper {
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+
+.hkd-form-data .hkd-form-row {
+	margin-bottom: 5px;
+}
+.hkd-form-data label, 
+.hkd-form-data span.hkd-form-label {
+	display: block;
+	margin-bottom: 4px;
+}
+/*	Checkbox */
+.hkd-form-data .hkd-form-checkbox input.hkd-form-checkbox, 
+.hkd-form-data .hkd-form-radio input.hkd-form-radio {
+	float: left;
+	margin: 0px 9px 0 0;
+}
+.hkd-form-data .hkd-form-checkbox label, 
+.hkd-form-data .hkd-form-radio label {
+	display: block;
+	float: left;
+    line-height: 16px;
+    width: 90%;
+}
+
+.hkd-grid-2col .hkd-form-checkbox label, 
+.hkd-grid-2col .hkd-form-radio label {
+    width: 330px;
+}
+
+
+
+
+/* in box4 uebersichten reset */
+.hkd-bx4 .hkd-form-data legend, 
+.hkd-bx4 .hkd-form-data .hkd-form-wrapper {
+	padding-left: 6px;
+}
+
+
+
+
+/**** radio-select group */
+.hkd-form-data .hkd-radio-select-group {
+        padding-top: 5px;
+}
+.hkd-form-data .hkd-radio-select-group label {
+        width: 220px;
+}
+/*** breiten alternative */
+.hkd-form-data .hkd-radio-select-group-1 label {
+        width: 180px;
+}
+
+
+
+.hkd-form-data input.hkd-form-text, 
+.hkd-form-data select.hkd-form-select,
+.hkd-form-data textarea.hkd-form-textarea {
+	background-color: #F7F6F6;
+	border: 1px solid #ABAAAA;
+	border-right-color: #E3E3E3;
+	border-bottom-color: #E3E3E3;
+}
+
+/*** READ ONLY */
+.hkd-form-data input.hkd-read-only {
+        font-style: italic;
+        color: #8F8F8F;
+}
+
+
+.hkd-form-data .hkd-form-function {
+	clear: both;
+	float: left;
+	width: 100%;
+	padding: 8px 0 40px 0;
+	background-image: url(../images/hkd_gr5_001_072.gif);
+	background-repeat: repeat-x;
+	border-top: 1px solid #ABAAAA;
+}
+.hkd-form-data .hkd-form-function .hkd-form-element {
+	padding-left: 13px; 
+}
+.hkd-form-data .hkd-form-function .hkd-form-info {
+	padding-right: 14px;
+}
+
+
+.hkd-form-data .hkd-form-function input.hkd-form-submit,
+.hkd-form-data .hkd-form-function input.hkd-form-hilite {
+	padding: 2px 5px;
+	background-color: #FFF;
+	background-image: url(../images/hkd_gr3_001_015.gif);
+	background-repeat: repeat-x;
+	background-position: 0px 100%;
+	border: 1px solid #0372a5;
+	font-weight: bold;
+}
+
+.hkd-form-data .hkd-form-function input.hkd-form-hilite {
+	background-image: url(../images/hkd_gr3_002_015.gif);
+	border: 1px solid #0072A5;
+        color: #0072A5;
+}
+
+
+
+
+
+
+/* erweiterung schadenmeldung upload */
+.hkd-bx-schaden-upload .hkd-form-data .hkd-form-function-upload-add {
+        padding: 8px 0 20px 0;
+}
+
+
+/********************************** Tabellenfilter ****************************/
+.hkd-form-table-filter {
+	margin-top: -16px;
+	padding-top: 16px;
+	padding-bottom: 7px;
+	background-image: url(../images/hkd_bg_table_filter.gif);
+        background-position: 0 100%;
+	background-repeat: repeat-x;
+}
+
+.hkd-form-table-filter .hkd-form-row-gap {
+        margin-top: 6px;
+}
+
+.hkd-form-table-filter form {
+	padding-left: 10px;
+}
+.hkd-form-table-filter .hkd-form-row .hkd-form-cols .hkd-form-col {
+	margin-left: 0;
+}
+.hkd-form-table-filter .hkd-form-element {
+	padding-left: 5px;
+}
+
+/*** abstand links zu vorherigen element kleiner */
+.hkd-form-table-filter .hkd-form-left-gap .hkd-form-element {
+        padding-left: 3px;
+}
+
+
+
+.hkd-form-table-filter label, 
+.hkd-form-table-filter span.hkd-form-label {
+	display: block;
+	margin-bottom: 1px;
+}
+.hkd-form-table-filter input.hkd-form-text, 
+.hkd-form-table-filter select.hkd-form-select {
+	border: 1px solid #0372a5;
+	border-right-color: #9cd9f4;
+	border-bottom-color: #9cd9f4;
+}
+
+
+/*** SUCHE BEI FILTER, UEBER SEARCH INIT */
+.hkd-form-table-filter input.hkd-form-submit {
+        margin-top: 13px;
+        padding: 2px 10px;
+        background-position: 0px 100%;
+        background-color: #FFF;
+}
+
+.hkd-form-table-filter .hkd-form-submit-update {
+		margin: 0;
+}
+
+
+
+
+
+
+
+
+/* flyout filter multiple */
+.hkd-form-multiple-select,
+.hkd-form-multiple-select-checkbox {
+        position: absolute;
+        margin-top: -1px;
+}
+
+.hkd-form-multiple-select-checkbox-scroll {
+        overflow:auto;
+}
+
+.hkd-form-multiple-select-checkbox {
+        background-color: #fff;
+        border-top: 1px solid #9cd9f4;
+        border-right: 1px solid #9cd9f4;
+        border-bottom: 1px solid #0372A5;
+        border-left: 1px solid #0372A5;
+        margin-left: 7px;
+}
+
+.hkd-form-multiple-select-checkbox .hkd-form-checkbox input,
+.hkd-form-multiple-select-checkbox .hkd-form-checkbox label {
+	float: left; 
+}
+.hkd-form-multiple-select-checkbox .hkd-form-checkbox label {
+	margin: 4px 0 0 2px;
+}
+
+
+
+.hkd-form-table-filter .hkd-form-multiple-select-checkbox .hkd-form-element {
+        padding-left: 0px;
+}
+
+
+
+.hkd-form-multiple-select,
+.hkd-form-multiple-select-checkbox {
+        /*display: none;*/
+}
+
+
+
+
+
+
+
+
+
+
+.hkd-form-row a.hkd-has-ic {
+        padding: 4px 0 0 22px;
+        font-size: 120%;
+        display: block;
+        height: 19px;
+}
+
+
+.hkd-page-function-settings .hkd-form-row {
+        float: right;
+}
+
+.hkd-page-function-settings .hkd-fieldset-copy {
+        padding-top: 3px;
+}
+
+.hkd-page-function-settings .hkd-form-cols .hkd-form-col {
+        float: right;
+        margin-right: 10px;
+}
+.hkd-page-function-settings .hkd-form-cols .hkd-form-col-first {
+        margin-right: 0px;
+}
+
+.hkd-page-function-settings .hkd-form-data select.hkd-form-select {
+        background-color: #fff;
+}
+
+
+
+
+/* Breite von MultiSelect kleiner */
+#hkd-form-multiple-sparte select.hkd-form-ss100 {
+   width: 112px;
+}
+#hkd-form-multiple-sparte {
+   height: 98px;
+   width: 112px;
+}
+
+
+
+
+/* test.css */
+a.hkd-form-submit {
+    background-image: url("../images/hkd_gr3_001_015.gif");
+    background-position: 0 1px;
+    background-repeat: repeat-x;
+    border: 1px solid #6BB7DA;
+    padding: 3px 4px;
+    color: #5488A2;
+}
+
+
+/* mehr abstand buttons zueinander, global */
+
+.hkd-form-function .hkd-form-col,
+.hkd-tarif-eingaben .hkd-form-function .hkd-form-col {
+    padding-left: 20px; 
+}
+
+
+.hkd-form-function  .hkd-form-col-tight {
+   padding-left: 0px;
+   margin-left: 0px;
+}
+
+.hkd-form-function  .hkd-form-col-tight .hkd-form-element {
+   padding-left: 0px;
+   margin-left: 0px;
+}
+
+
+.hkd-form-function .hkd-form-col-first,
+.hkd-tarif-eingaben .hkd-form-function .hkd-form-col-first{
+    padding-left: 0px; 
+}
+
+
+
+.hkd-mitarbeiter .hkd-grid-2col .hkd-form-checkbox label,
+.hkd-mitarbeiter .hkd-grid-2col .hkd-form-radio label { width: 145px; } 
+
+.hkd-mitarbeiter .hkd-grid-2col .hkd-col-last .hkd-form-checkbox label,
+.hkd-mitarbeiter .hkd-grid-2col .hkd-col-last .hkd-form-radio label { width: 115px; } 
+
+

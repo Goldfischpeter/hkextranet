@@ -1,0 +1,162 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2012-07-23
+*******************************************************************************/
+
+.hkd-bx-login {
+       position: relative;
+}
+
+.hkd-form-table-filter .hkd-form-multiple-select-checkbox .hkd-form-row,
+.hkd-form-table-filter .hkd-form-multiple-select-checkbox .hkd-form-element {
+     width: 85%;
+}
+
+#hkd-form-multiple-sparte {
+        width: 230px;
+        height: 100px;
+}
+
+.hkd-form-multiple-select-checkbox {
+        margin-top: -2px;
+}
+
+
+.hkd-form-data legend { padding-left: 10px; }
+.hkd-form-data .hkd-form-checkbox label { margin-top: 2px; }
+
+.hkd-bx-config {
+	padding-top: 6px;
+	padding-bottom: 1px;	
+}
+.hkd-form-data {
+
+}
+
+.hkd-bx5 .hkd-form-data legend { margin-left: -8px; }
+
+.hkd-tarif-eingaben .hkd-form-element label { padding-top: 1px; }
+
+/* fix  */
+#hkd-ct1 {
+     height: 39px;
+}
+
+a.hkd-ic15 { background-image: url(../images/hkd_ic_pagi_prev.gif); }
+a.hkd-ic16 { background-image: url(../images/hkd_ic_pagi_next.gif); }
+
+
+/* tarifrechner */
+.hkd-tarif-action a { margin-top: 0px; }
+.hkd-tarif-action dt:first-child { padding-top: 4px;}
+
+/* PHV*/
+.hkd-auswahl-phv-config .hkd-tbl-col1 { width: 260px; }
+.hkd-auswahl-phv-config .hkd-tbl-col2 { width: 84px; }
+.hkd-auswahl-phv-config .hkd-tbl-col3 { width: 30px; }
+.hkd-auswahl-phv-config .hkd-tbl-col4 { width: 20px; }
+.hkd-auswahl-phv-config .hkd-tbl-col5 { width: 56px; }
+.hkd-auswahl-phv-config .hkd-tbl-col6 { }
+.hkd-auswahl-phv-sum .hkd-tbl-col1 { width: 490px; }
+.hkd-auswahl-phv-config { background-position: 484px 21px; }
+
+/* GHV*/
+.hkd-auswahl-ghv-config { background-position: 386px -10px; }
+
+/* THV und UV Indi*/
+.hkd-auswahl-thv-config { background-position: 488px 100%;}
+.hkd-auswahl-thv-sum .hkd-tbl-col1 { width: 448px; }
+
+.hkd-auswahl-thv-config .hkd-tbl-col2 { width: 240px; }
+
+
+/* BHV*/
+.hkd-auswahl-bhv-config { background-position: 357px -10px; }
+.hkd-auswahl-bhv-config .hkd-tbl-col1 { width: 310px; }
+.hkd-auswahl-bhv-config .hkd-tbl-col2 { width: 36px; }
+.hkd-auswahl-bhv-config .hkd-tbl-col3 { width: 110px; }
+.hkd-auswahl-bhv-config .hkd-tbl-col4 { width: 20px; }
+.hkd-auswahl-bhv-sum .hkd-tbl-col1 { width: 374px; }
+.hkd-auswahl-bhv-sum .hkd-tbl-col2 { width: 68px; }
+.hkd-auswahl-bhv-sum .hkd-tbl-col3 { width: 50px; }
+
+.hkd-bhv-single .hkd-auswahl-bhv-config {
+       background-position: 368px -11px;
+}
+
+
+
+/* UV */
+.hkd-auswahl-uv-config .hkd-tbl-col1,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col1 { width: 203px; }
+.hkd-auswahl-uv-config .hkd-tbl-col2,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col2 { width: 75px; }
+.hkd-auswahl-uv-config .hkd-tbl-col3,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col3 { width: 16px; }
+.hkd-auswahl-uv-config .hkd-tbl-col4,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col4 { width: 75px; }
+.hkd-auswahl-uv-config .hkd-tbl-col5,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col5 { width: 14px; }
+.hkd-auswahl-uv-config .hkd-tbl-col6,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col6 { width: 74px; }
+.hkd-auswahl-uv-config .hkd-tbl-col7,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col7 { width: 16px; }
+.hkd-auswahl-uv-config .hkd-tbl-col8,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col8 { width: 75px; }
+
+.hkd-auswahl-uv-sum .hkd-tbl-col1 { width: 203px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col2 { width: 75px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col3 { width: 16px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col4 { width: 75px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col5 { width: 14px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col6 { width: 74px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col7 { width: 16px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col8 { width: 75px; }
+
+
+
+
+/* UVS */
+.hkd-auswahl-uvs-config .hkd-tbl-col1 { width: 376px; }
+.hkd-auswahl-uvs-config .hkd-tbl-col2 { width: 78px; }
+.hkd-auswahl-uvs-config .hkd-tbl-col3 { width: 37px; }
+.hkd-auswahl-uvs-config .hkd-tbl-col4 { width: 78px; }
+
+.hkd-auswahl-uvs-sum .hkd-tbl-col1 { width: 376px; }
+.hkd-auswahl-uvs-sum .hkd-tbl-col2 { width: 78px; }
+.hkd-auswahl-uvs-sum .hkd-tbl-col3 { width: 37px; }
+.hkd-auswahl-uvs-sum .hkd-tbl-col4 { width: 78px; }
+
+.hkd-auswahl-uvs-config {
+       background-position: 364px -10px;
+}
+
+
+
+/* HRV */
+.hkd-auswahl-hrv-config .hkd-tbl-col1 { width: 270px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col2 { width: 30px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col3 { width: 58px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col4 { width: 86px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col5 { width: 30px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col6 { width: 86px; }
+
+.hkd-auswahl-hrv-sum .hkd-tbl-col1 { width: 380px; }
+.hkd-auswahl-hrv-sum .hkd-tbl-col2 { width: 77px; }
+.hkd-auswahl-hrv-sum .hkd-tbl-col3 { width: 42px; }
+
+
+
+.hkd-mitarbeiter .hkd-form-row { margin-bottom: -4px; padding: 0; }
+
+p.hkd-tarif-pdf { padding-top: 6px; padding-bottom: 5px; }
+
+.hkd-form-radio label {
+        margin-top: 1px;
+}
+
+
+
+

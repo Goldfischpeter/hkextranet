@@ -1,0 +1,14 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Stand		: 2011-03-09 (reduzierter Import)
+*******************************************************************************/
+@import url('hkd_css_basic.css');
+@import url('hkd_css_navigation.css');
+@import url('hkd_css_element.css');
+@import url('hkd_css_form.css');
+@import url('hkd_css_table.css');
+@import url('hkd_css_form_schaden.css');
+@import url('hkd_css_test.css');
+

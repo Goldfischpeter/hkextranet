@@ -1,0 +1,63 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		:  2012-12-07 
+*******************************************************************************/
+
+.hkd-bx-login {
+        margin-left: 10px;
+        margin-top: -8px;
+        position:absolute;
+        z-index:1;
+}
+
+.hkd-form-radio label {
+        margin-top: 0;
+        padding-bottom: 1px;
+}
+
+
+.hkd-form-checkbox-group .hkd-form-row {
+       padding: 3px 0 0 0;
+}
+.hkd-form-radio-group .hkd-form-row {
+       padding: 2px 0 0 0;
+}
+
+
+.hkd-tarif-eingaben .hkd-form-checkbox-group dl dt.hkd-dt-checkbox {
+         margin-left: 0px;
+}
+
+.hkd-tarif-eingaben .hkd-form-radio-group dl dt.hkd-dt-radio{
+         margin-left: 0px;
+}
+
+.hkd-auswahl-phv-config {
+       background-position: 484px 15px;
+}
+
+.hkd-auswahl-uv-config-ext {
+       background-image: url(../images/hkd_tr_auswahl_arr_uv_2.gif);
+       background-position: 205px 10px;
+       background-repeat: no-repeat;
+}
+
+.hkd-td-hilfepaket dl.hkd-dl-select dt.hkd-dt-first {
+    padding-top: 4px; 
+}
+
+/* HRV */
+.hkd-auswahl-hrv-config .hkd-tbl-col1 { width: 270px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col2 { width: 30px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col3 { width: 58px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col4 { width: 86px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col5 { width: 30px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col6 { width: 86px; }
+
+.hkd-auswahl-hrv-sum .hkd-tbl-col1 { width: 380px; }
+.hkd-auswahl-hrv-sum .hkd-tbl-col2 { width: 77px; }
+.hkd-auswahl-hrv-sum .hkd-tbl-col3 { width: 42px; }
+
+

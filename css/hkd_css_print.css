@@ -1,0 +1,118 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Stand		: 2011-04-12
+*******************************************************************************/
+@import url('/web-app/css/hkd_css_basic_print.css');
+
+@page {
+	size: landscape !important;
+}
+
+.nowrap{
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+body.hkd, 
+#hkd-nvx2 {
+	color: #000;
+}
+
+
+body.hkd {
+	background: none;
+	font-size: 10px;
+}
+
+#hkd-site {
+	width: 100%;
+}
+
+
+
+#hkd-header {
+	float: none;
+}
+#hkd-logo {
+	position: absolute;
+	float: right;
+	top: 5px;
+	right: 5px;
+}
+#hkd-logo a {
+	display: block;
+	width: 110px;
+	height: 50px;
+	background-image: url(../images/hkd-ic-logo.jpg);
+}
+
+
+.hkd-print-info {
+	padding-top: 30px;
+}
+.hkd-print-info .hkd-hl1 {
+	margin-bottom: .5em;
+}
+
+
+.hkd-bx1, 
+.hkd-bx2, 
+.hkd-bx3, 
+.hkd-bx4, 
+.hkd-bx5 {
+	background: none;
+	margin-bottom: 0px;
+}
+body.hkd #hkd-header .hkd-content, 
+body.hkd .hkd-content {
+	height: auto;
+	padding: 0;
+	background: none;
+}
+
+body.hkd .hkd-bottom {
+	display: none;
+}
+
+
+.hkd-ct-wrapper {
+	padding-bottom: 10px;
+}
+
+
+body.hkd table {
+	width: 100%;
+}
+body.hkd table th, 
+body.hkd table td {
+	padding: 5px 10px;
+	border: 1px solid #E1E1E1 !important;
+}
+body.hkd table th {
+	border-top: 1px solid #AAA !important;
+	border-bottom: 1px solid #0472a5 !important;
+}
+body.hkd table tfoot tr td {
+	border-top: 1px solid #AAA !important;
+	border-bottom: 2px solid #AAA !important;
+}
+
+body.hkd table th.hkd-tbl-first, 
+body.hkd table td.hkd-tbl-first {
+	border-left: 0 !important;
+}
+body.hkd table th.hkd-tbl-last, 
+body.hkd table td.hkd-tbl-last {
+	border-right: 0 !important;
+}
+
+.hkd-tbl-config {
+	display: none;
+}
+
+#hkd-nvx2 ul li {
+        float: left;
+        margin-right: 30px;
+}

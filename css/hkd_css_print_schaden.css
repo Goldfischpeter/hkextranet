@@ -1,0 +1,175 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2011-03-09
+*******************************************************************************/
+@import url('../css/hkd_css_basic.css');
+
+@page {
+	size: portrait !important;
+}
+
+.nowrap{
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+body.hkd, 
+#hkd-nvx2 {
+	color: #000;
+}
+
+
+body.hkd {
+	background: none;
+	font-size: 10px;
+}
+
+#hkd-site {
+	width: 100%;
+}
+
+
+
+#hkd-header {
+	float: none;
+}
+#hkd-logo {
+	position: static;
+	float: right;
+}
+.hkd-print-info {
+	padding-top: 30px;
+}
+.hkd-print-info .hkd-hl1 {
+	margin-bottom: .5em;
+}
+
+
+.hkd-bx1, 
+.hkd-bx2, 
+.hkd-bx3, 
+.hkd-bx4, 
+.hkd-bx5 {
+	background: none;
+	margin-bottom: 0px;
+}
+body.hkd #hkd-header .hkd-content, 
+body.hkd .hkd-content {
+	height: auto;
+	padding: 0;
+	background: none;
+}
+
+body.hkd .hkd-bottom {
+	display: none;
+}
+
+
+.hkd-ct-wrapper {
+	padding-bottom: 10px;
+}
+
+
+body.hkd table {
+	width: 100%;
+}
+
+body.hkd table td {
+	padding: 5px 10px;
+	border: 1px solid #E1E1E1 !important;
+}
+body.hkd table th {
+	border-top: 1px solid #AAA !important;
+	border-bottom: 1px solid #0472a5 !important;
+}
+body.hkd table tfoot tr td {
+	border-top: 1px solid #AAA !important;
+	border-bottom: 2px solid #AAA !important;
+}
+
+body.hkd table th.hkd-tbl-first, 
+body.hkd table td.hkd-tbl-first {
+	border-left: 0 !important;
+}
+body.hkd table th.hkd-tbl-last, 
+body.hkd table td.hkd-tbl-last {
+	border-right: 0 !important;
+}
+
+.hkd-tbl-config {
+	display: none;
+}
+
+#hkd-nvx2 ul li {
+        float: left;
+        margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+body.hkd .hkd-tbl-smprint table {
+        margin-bottom: 30px;
+}
+body.hkd .hkd-tbl-smprint table th,
+body.hkd .hkd-tbl-smprint table td {
+        border-left: 0 !important;
+        border-right: 0 !important;
+}
+
+
+body.hkd .hkd-tbl-smprint table th {
+        padding: 10px 10px; 
+        color: #0372a5;
+        font-size: 120%;
+        text-align: left;
+}
+
+body.hkd .hkd-tbl-smprint table th {
+	border-top: 1px solid #0472a5 !important;
+	border-bottom: 1px solid #0472a5 !important;
+}
+
+
+/* default 5 cols */
+.hkd-tbl-col-sm-1 {
+        width: 20%;
+}
+.hkd-tbl-col-sm-2 {
+        width: 30%;
+}
+
+
+.hkd-tbl-cols-2 .hkd-tbl-col-sm-1 {
+        width: 51%;
+}
+.hkd-tbl-cols-2 .hkd-tbl-col-sm-2 {
+        width: 49%;
+}
+
+
+body.hkd .hkd-tbl-smprint table td.hkd-tbl-col-sm-fragecolspan {
+	border-bottom: 1px solid #B6CFDF !important;
+} 
+
+
+.hkd-tbl-col-sm-space {
+        width: 20px;
+}
+
+body.hkd table td.hkd-tbl-col-sm-space {
+        border: 0 !important;
+}
+body.hkd table td.hkd-tbl-col-sm-1 {
+        color: #676767;
+}
+
+
+

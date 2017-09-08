@@ -1,0 +1,101 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2011-03-16
+*******************************************************************************/
+
+
+.hkd-media-player {
+        margin-left: 12px;
+}
+.hkd-media-player p {
+        margin-left: 4px;
+        padding-right: 60px;
+}
+.hkd-media-player .hkd-hl2 {
+        margin-left: 4px;
+        padding: 0;
+}
+
+.hkd-media-stage {
+        float: left;
+        background-image: url(../images/hkd_media_bg.gif);
+        width: 956px;
+        height: 444px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+}
+
+#flvcontent {
+        width: 946px;
+        height: 430px;
+}
+
+.hkd-media-flv {
+        padding: 5px 0 0 4px;
+}
+
+
+
+#slideshow {
+        position:relative;
+        height:432px;
+}
+
+#slideshow IMG {
+        position:absolute;
+        top:5px;
+        left:5px;
+        z-index:8;
+}
+
+#slideshow IMG.active {
+        z-index:10;
+}
+
+#slideshow IMG.last-active {
+        z-index:9;
+}
+
+.slidecontrol {
+        width: 954px;
+        height: 440px;
+        margin-top: -430px;
+        position: absolute;
+        z-index: 99;
+        background: url(../images/transparent.gif) repeat;
+}
+.slideshowcontroller {
+        height: 44px;
+        position: absolute;
+        z-index: 100;
+        margin: -70px 0 0 420px;
+        display: none;
+}
+.slidecontrol_play {
+        display: none;
+}
+
+.slidecontrol_next,
+.slidecontrol_prev,
+.slidecontrol_play,
+.slidecontrol_pause {
+	display: block;
+	float: left;
+	width: 39px;
+	height: 44px;
+	text-indent: -1000em;
+}
+.slidecontrol_next {
+	background-image: url(../images/hkd_slideshow_control_next.gif);
+}
+.slidecontrol_prev {
+	background-image: url(../images/hkd_slideshow_control_prev.gif);
+}
+.slidecontrol_play {
+	background-image: url(../images/hkd_slideshow_control_play.gif);
+}
+.slidecontrol_pause {
+	background-image: url(../images/hkd_slideshow_control_pause.gif);
+}

@@ -1,0 +1,613 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2011-03-09 (reduziert fuer Print)
+*******************************************************************************/
+
+/************************************* Reset allgemein - NICHTS VERAENDERN *****
+*******************************************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*********************************************** Reset - NICHTS VERAENDERN *****
+*******************************************************************************/
+a {
+	text-decoration:none;
+}
+img, iframe, object, embed {
+	vertical-align: bottom;
+}
+strong {
+	font-weight: bold;
+}
+input, textarea, select {
+	font-size: 1em;
+}
+/*
+html {
+	height: 100.01%;
+	margin-bottom: -1px;
+}
+*/
+body {
+	position:relative;
+	background-color: #FFF;
+	color: #000;
+	font-size: 100.01%;
+	font-weight: normal;
+	line-height: 1;
+	text-align: left;
+}
+
+sup {
+	vertical-align: top;
+}
+
+/******************************************** Standard - NICHTS VERAENDERN *****
+*******************************************************************************/
+
+.hkd-nospace {
+	margin: 0;
+	padding: 0;
+}
+
+.hkd-rvrs {
+	unicode-bidi: bidi-override; 
+	direction: rtl;
+}
+
+body, div, 
+h1, h2, h3, h4, h5, h6, p, 
+a, span,  
+li {
+	background-repeat:no-repeat;
+}
+
+.hkd-fll { 
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.hkd-flr { 
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+.hkd-algn-lft { 
+	text-align: left;
+}
+
+.hkd-algn-rght,
+.hkd-tbl1 thead .hkd-algn-rght { 
+	text-align: right;
+}
+
+.hkd-algn-cntr,
+.hkd-tbl1 thead .hkd-algn-cntr  { 
+	text-align: center;
+}
+
+.hkd-clearer { 
+	display: block;
+	clear: both;
+	line-height: 0em;
+	height: 1px;
+	font-size: 0;
+	visibility: hidden;
+}
+
+.hkd-clear { 
+	clear: both;
+}
+
+.hkd-hidden {
+	display: inline;
+	position: absolute;
+	left: -1000px;
+	top: -1000px;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	background-color: #FFF;
+}
+
+.hkd-dib {
+	display: block;
+}
+.hkd-din {
+	display: none;
+}
+
+.bi{
+   font-style: italic;
+   font-weight: bold;
+}
+
+
+
+.hkd-fmt-normal {
+        font-weight: normal;
+}
+.hkd-fmt-bold,
+.hkd-fmt-mark {
+        font-weight: bold;
+}
+
+
+/************************************************************* Text-Farben *****
+*******************************************************************************/
+/*	Grau
+	- Navi Lev1, Lev2, Lev4 
+	- Text
+*/
+body, 
+a.hkd-lk1, 
+#hkd-nv1 li.hkd-lv2 a, 
+#hkd-nv4 a,
+#hkd-nv4-1 a,
+#hkd-nv4-2 a,   
+.hkd-tbl-sort a, 
+.hkd-ls2 a, 
+.hkd-form .hkd-form-element input.hkd-form-submit,
+#hkd-login-info,
+.hkd-grid-ct2l-ct3r .hkd-wiedervorlage-vertrag .hkd-col-first,
+.hkd-bx9 .hkd-hl,
+.hkd-tarif-eingaben .hkd-bx8 .hkd-form-col-first dl dt,
+.hkd-tarifrechnerschema-1 .hkd-tarif-eingaben .hkd-bx8 .hkd-form-col-first dl dt,
+.hkd-tarif-action a   {
+	color: #000;
+}
+#hkd-nvx2, 
+#hkd-nvx2 a {
+	color: #dfdfdf;
+}
+
+/*	Dunkelblau 
+	- Icon Farbe
+	- Nav Lev1, Lev2, Lev4 Aktiv
+	- Tab Text
+*/
+.hkd-hl1, 
+.hkd-hl4,
+.hkd-hl5,  
+a.hkd-lk2, 
+a.hkd-lk3, 
+#hkd-header .hkd-navi a, 
+#hkd-nv1 a.hkd-active, 
+#hkd-nv1 li.hkd-lv1 dt a, 
+#hkd-nv1 li.hkd-active li a, 
+#hkd-nv1 li.hkd-current li a, 
+#hkd-nv3 a, 
+#hkd-nv4 a:hover, 
+#hkd-nv4 a.hkd-active, 
+#hkd-nv4-1 a:hover, 
+#hkd-nv4-1 a.hkd-active, 
+#hkd-nv4-2 a:hover, 
+#hkd-nv4-2 a.hkd-active, 
+#hkd-nvx4 a, 
+.hkd-tbl2 thead th, 
+.hkd-tbl3 tbody th, 
+.hkd-tbl5 tbody .hkd-tbl-last,
+.hkd-tbl-sort a:hover, 
+.hkd-tbl-sort-active a, 
+.hkd-form-table-filter .hkd-form-element input, 
+.hkd-form-table-filter .hkd-form-element select, 
+.hkd-form-table-filter .hkd-form-element textarea, 
+.hkd-form-table-filter .hkd-form-submit-link .hkd-form-label, 
+.hkd-ls2 a:hover, 
+.hkd-ls2 a.hkd-active, 
+.hkd-ls5 a,
+.hkd-tbl2 a.hkd-active,
+.hkd-tbl1 tbody td a,
+a.hkd-has-ic,
+span.hkd-login-ngp,
+#hkd-login-info a,
+.hkd-details a,
+.hkd-faq #hkd-nv4 li.hkd-active a,
+.hkd-grid-ct2l-ct3r .hkd-wiedervorlage-vertrag,
+#hkd-bx6 .hkd-grid-2col .hkd-col,
+.hkd-tarif-moderation,
+.hkd-tooltip h2,
+.hkd-tarif-eingaben .hkd-bx8 dl dt,
+.hkd-tbl-betrag1,
+.hkd-tbl7 tfoot .hkd-tbl-first a,
+.hkd-tarif-auswahl .hkd-form select,
+.hkd-tarif-action dl dt,
+.hkd-fmt-mark,
+.hkd-ct-header a,
+.hkd-colr-b,
+.hkd-bx9 .hkd-hl1 a,
+.hkd-tbl-col-sm-frage,
+.hkd-tbl-col-sm-fragecolspan,
+.hkd-tbl7 thead th.hkd-tbl-tarif-mark,
+.hkd-tbl7 tbody td.hkd-tbl-tarif-mark,
+.hkd-tbl7 tfoot td.hkd-tbl-tarif-mark,
+.hkd-grid-5col .hkd-col a,
+.hkd-media-player .hkd-hl2,
+.hkd-tarif-eingaben .hkd-form-group-title a   {
+	color: #000;
+}
+
+/*	Mittelblau 
+	- Nav Balken
+*/
+#hkd-header .hkd-navi a:hover, 
+#hkd-header .hkd-navi a.hkd-active, 
+#hkd-nv1 a.hkd-active, 
+.hkd-ls5 a:hover, 
+.hkd-ls5 a.hkd-active {
+	color: #00a3da;
+}
+
+.hkd-ls4 a,
+#hkd-header .hkd-navi .hkd-ls4 a {
+	color: #d0e3f6;
+}
+
+
+
+/*	Graublau 
+	- Suchen Button
+*/
+#hkd-search input.hkd-form-submit {
+	color: #5488a2;
+}
+
+.hkd-ls4 a:hover, 
+.hkd-ls4 a.hkd-active,
+#hkd-header .hkd-navi .hkd-ls4 a:hover,
+#hkd-header .hkd-navi .hkd-ls4 a.hkd-active {
+	color: #fff;
+}
+/*************************************************************** Schriften *****
+*******************************************************************************/
+body.hkd, 
+body.hkd input, 
+body.hkd textarea {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+
+
+/********************************************************* Schriftgroessen *****
+*******************************************************************************/
+body.hkd {
+	font-size: 62.5%;
+}
+
+a.hkd-ic-doc-txt,
+td.hkd-bx-config .hkd-ls4,
+#hkd-header .hkd-navi .hkd-bx-config .hkd-ls4,
+.hkd-tarif-auswahl .hkd-form .hkd-form-element select {
+	font-size: 100%;
+}
+
+#hkd-nvx2, 
+#hkd-search, 
+.hkd-tbl1 thead, 
+.hkd-tbl2 thead, 
+.hkd-form .hkd-form-element label, 
+.hkd-form .hkd-form-element .hkd-form-label,
+.hkd-tarif-moderation,
+.hkd-tooltip,
+.hkd-form-text-add,
+.hkd-form-data .hkd-legal .hkd-form-checkbox label,
+.hkd-grid-5col .hkd-col
+{
+	font-size: 110%;
+}
+#hkd-nv1, 
+#hkd-nv4,
+#hkd-nv4-1,
+#hkd-nv4-2,   
+#hkd-nvx1, 
+#hkd-nvx3, 
+#hkd-ct1, 
+.hkd-hl1,
+.hkd-hl4,  
+.hkd-tx1, 
+.hkd-tbl1 tbody, 
+.hkd-tbl1 tfoot, 
+.hkd-tbl2 tbody, 
+.hkd-tbl3 tbody, 
+.hkd-tbl4 tbody,
+.hkd-tbl5 tbody,
+.hkd-tbl6 tbody,
+.hkd-tbl7 tbody,
+.hkd-tbl7 thead, 
+.hkd-tbl7 tfoot,     
+.hkd-form legend,
+.hkd-form .hkd-form-checkbox label,
+.hkd-form .hkd-form-radio label,
+.hkd-form .hkd-form-element input, 
+.hkd-form .hkd-form-element select, 
+.hkd-form .hkd-form-element textarea, 
+.hkd-ls1, 
+.hkd-ls2, 
+.hkd-ls3, 
+.hkd-ls4, 
+.hkd-ls5, 
+.hkd-pagination .hkd-info,
+#hkd-login-info,
+.hkd-details,
+#hkd-bx6,
+.hkd-tarif-eingaben dl,
+.hkd-legal,
+.hkd-tarif-action dt.hkd-dt-first,
+.hkd-tarif-action dl dt,
+.hkd-ct-header p  {
+	font-size: 120%;
+}
+
+.hkd-hl2,
+.hkd-hl3,
+.hkd-hl5 {
+	font-size: 160%;
+}
+
+
+/*** cms text, fieldset text */
+#hkd-ct2 .hkd-copy,
+#hkd-ct3 .hkd-copy,
+p.hkd-fieldset-copy,
+.hkd-media-player p {
+	font-size: 120%;
+}
+
+
+
+
+
+#hkd-wrapper {
+	line-height: 1.1;
+}
+
+.hkd-tooltip {
+        line-height: 1.3;
+}
+
+#hkd-ct2 .hkd-copy,
+#hkd-ct3 .hkd-copy,
+.hkd-fieldset-copy,
+.hkd-details,
+.hkd-tarif-eingaben dl,
+.hkd-tbl5 tbody,
+.hkd-tbl6 tbody,
+.hkd-tbl7 tbody,
+.hkd-grid-5col .hkd-col   {
+        line-height: 1.5;
+}
+
+
+
+
+
+
+
+/**************************************************************** Struktur *****
+*******************************************************************************/
+body {
+	background-color: #ededed;
+	background-image: url(/web-app/images/hkd_bg.gif);
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+#hkd-site {
+	width: 984px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+/********************************** Header ************************************/
+#hkd-header {
+	position: relative;
+	float: left;
+	width: 100%;
+	z-index: 1;
+}
+/*** HOEHE ANGEPASST, AGENTURINFO */
+#hkd-header .hkd-content {
+	height: 35px;
+}
+
+#hkd-logo {
+	position: absolute;
+	right: 21px;
+	top: 0;
+}
+
+
+
+
+
+
+/********************************** Boxen *************************************/
+
+/*
+bx6 vertragsdetails
+bx7 und bx8: tarifrechner
+bx9 Zusammenfassung rechts
+*/
+
+.hkd-bx1, 
+.hkd-bx2, 
+.hkd-bx3, 
+.hkd-bx4,
+.hkd-bx5,
+.hkd-bx7,
+.hkd-bx8,
+.hkd-bx9 {
+	float: left;
+	width: 100%;
+	margin-bottom: 6px;
+	background-image: url(/web-app/images/hkd_box_984_m.gif);
+	background-repeat: repeat-y;
+}
+.hkd-bx1 .hkd-content, 
+.hkd-bx2 .hkd-content {
+	padding-right: 3px;
+	padding-left: 1px;
+	background-image: url(/web-app/images/hkd_box_984_t.gif);
+}
+.hkd-bx1 .hkd-bottom,
+.hkd-bx2 .hkd-bottom, 
+.hkd-bx3 .hkd-bx-bottom,
+.hkd-bx4 .hkd-bx-bottom,
+.hkd-bx5 .hkd-bx-bottom,
+.hkd-bx7 .hkd-bx-bottom,
+.hkd-bx8 .hkd-bx-bottom,
+.hkd-bx9 .hkd-bx-bottom {
+	clear: both;
+	width: 100%;
+	height: 4px;
+	background-image: url(/web-app/images/hkd_box_984_b.gif);
+	background-position: 0% 100%;
+}
+
+
+/* Z-Index Fix fýr Tarifrechner (Autocomplete Titel) */
+.hkd-bx9, .hkd-bx8 {
+   position: static !important;
+}
+
+
+/*	hkd-bx2 
+		Bspl: Footer
+*/
+.hkd-bx2 {
+	background-image: url(/web-app/images/hkd_box_984b_m.gif);
+}
+.hkd-bx2 .hkd-content {
+	background-image: url(/web-app/images/hkd_box_984b_t.gif);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	Spezial */
+#hkd-wrapper .hkd-content {
+	padding-right: 4px;
+	padding-left: 2px;
+}
+
+/*	Aufheben fuer Unterklassen */
+.hkd-bx1 .hkd-content .hkd-content {
+	background: none;
+}
+.hkd-bx1 .hkd-content .hkd-content, 
+#hkd-wrapper .hkd-content .hkd-content {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+/********************************** Wrapper ***********************************/
+/*	Inahltsbereich */
+#hkd-wrapper {
+	
+}
+/*	Ctype Wrapper */
+.hkd-ct-wrapper {
+	float: left;
+	width: 100%;
+	padding: 16px 0 36px 0;
+}
+
+/*	Navigation */
+#hkd-ct1 {
+	float: left;
+	width: 100%;
+	padding-top: 1px;
+}
+#hkd-wrapper #hkd-ct1 .hkd-content {
+	padding: 7px 0 0 17px;
+	background-image: url(/web-app/images/hkd_gr2_001_038.gif);
+	background-repeat: repeat-x;
+}
+.hkd-ct-wrapper-bg {
+        background-image: url(/web-app/images/hkd_bg_ct_wrapper.gif);
+	background-repeat: repeat-x;
+}
+
+
+
+/*	Content */
+#hkd-ct2 {
+	float: left;
+	width: 100%;
+}
+/*	Sidebar */
+#hkd-ct3 {
+	float: left;
+	width: 100%;
+}
+
+
+/*	TR Content */
+#hkd-ct4 {
+	float: left;
+	width: 100%;
+}
+/*	TR Sidebar */
+#hkd-ct5 {
+	float: left;
+	width: 100%;
+}
+
+
+

@@ -1,0 +1,446 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2017-04-12
+*******************************************************************************
+
+2017-03-31: #47ff Navigation Spalte 1 und 4 enger/breite 
+
+*/
+#hkd-nv1 {
+	position: relative;
+}
+
+#hkd-nv1 a { text-decoration: none;}
+
+
+/********************************** Hauptnavi oeffnen / schliessen ************/
+.hkd-nv1-fade {
+	position: absolute;
+	right: 4px;
+	bottom: 5px;
+}
+.hkd-nv1-fade a {
+	display: block;
+	width: 13px;
+	height: 15px;
+	text-indent: -1000em;
+}
+
+
+/********************************** Hauptnavi - Level 1 ***********************/
+#hkd-nv1 li.hkd-lv1 {
+	display: block;
+	float: left;
+	width: 184px;
+	margin-left: 6px;
+}
+#hkd-nv1 ul.hkd-lv1 {
+	margin-left: 12px;
+}
+#hkd-nv1 li.hkd-lv1 {
+	display: block;
+	float: left;
+	width: 184px;
+	margin-left: 6px;
+}
+#hkd-nv1 li.hkd-lv1.hkd-lv1-col-1 {
+	width: 156px;
+}
+#hkd-nv1 li.hkd-lv1.hkd-lv1-col-4 {
+	width: 212px;
+}
+
+#hkd-nv1 li.hkd-lv1 dt {
+	display: block;
+	padding: 9px 0 8px 0;
+	border-top: 7px solid #ddebf9;
+	font-weight: bold;
+}
+#hkd-nv1 li.hkd-active dt, 
+#hkd-nv1 li.hkd-current dt {
+	border-top-color: #00a0dc;
+}
+#hkd-nv1 li.hkd-lv1 dd {
+/*	display: none; */
+}
+
+
+/********************************** Hauptnavi - Level 2 ***********************/
+#hkd-nv1 ul.hkd-lv2-has-1,
+#hkd-nv1 ul.hkd-lv2-has-2,
+#hkd-nv1 ul.hkd-lv2-has-3, 
+#hkd-nv1 ul.hkd-lv2-has-4, 
+#hkd-nv1 ul.hkd-lv2-has-5 {
+	height: 120px;
+	margin-bottom: 2px;
+	background-image: url(../images/hkd_nv1.gif);
+	background-repeat: repeat-x;
+}
+#hkd-nv1 ul.hkd-lv2-has-1 {
+	background-position: 0px 20px;
+}
+#hkd-nv1 ul.hkd-lv2-has-2 {
+	background-position: 0px 40px;
+}
+#hkd-nv1 ul.hkd-lv2-has-3 {
+	background-position: 0px 60px;
+}
+#hkd-nv1 ul.hkd-lv2-has-4 {
+	background-position: 0px 80px;
+}
+#hkd-nv1 ul.hkd-lv2-has-5 {
+	background-position: 0px 100px;
+}
+#hkd-nv1 li.hkd-lv2 {
+	display: block;
+	padding: 4px 0 3px 0;
+	border-top: 1px solid #e1e1e1;
+}
+#hkd-nv1 li.hkd-lv2 a:hover, 
+#hkd-nv1 li.hkd-lv2 a.hkd-active, 
+#hkd-nv1 li.hkd-lv2 a.hkd-current {
+	font-weight: bold;
+}
+
+
+/********************************** Subnavi - Level 3 *************************/
+#hkd-nv3 {
+	float: left;
+	width: 752px;
+}
+
+#hkd-nv3 li {
+	display: block;
+	float: left;
+	margin-left: 3px;
+        font-weight: bold;
+}
+#hkd-nv3 li.hkd-first {
+	margin-left: 0;
+}
+#hkd-nv3 li.hkd-last {
+	margin-right: 0;
+}
+#hkd-nv3 li a {
+	display: block;
+	padding: 10px 10px 8px 12px;
+	background-image: url(../images/hkd_nv_tab1.gif);
+	background-position: 100% 0px; 
+
+}
+
+
+
+
+#hkd-nv3 li a:hover, 
+#hkd-nv3 li a.hkd-active {
+	background-position: 100% -100px;
+}
+
+#hkd-nv3 li a.hkd-active {
+        font-weight: bold;
+}
+
+
+/********************************** Subnavi - Level 4 *************************/
+#hkd-nv4,
+#hkd-nv4-1 {
+	padding: 0;	
+        float: left;
+        width: 201px;
+        border-bottom: 1px solid #b7cde4;
+}
+
+
+
+#hkd-nv4 ul,
+#hkd-nv4-1 ul {
+        padding-left: 4px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+}
+
+
+.hkd-nav4-v2 #hkd-nv4 ul {
+        padding-top: 30px;
+}
+
+/*** kurze variante bg -> bg in class */
+.hkd-nv4-bg {
+        background-image: url(../images/hkd_gr4_001_156.gif);
+	background-position: 0px 160%;
+	background-repeat: repeat-x;
+        background-color: #fff;
+}
+.hkd-nv4-bg-short {
+        background-image: url(../images/hkd_gr4_001_156.gif);
+	background-position: 0px 20%;
+	background-repeat: repeat-x;
+}
+
+
+
+/* neue version hervorhebung nav 4 */
+.hkd-nav4-v2 #hkd-nv4,
+.hkd-nav4-v2 #hkd-nv4-1 {
+	padding: 0;	
+        float: left;
+        width: 201px;
+        border-bottom: none;
+}
+
+.hkd-nav4-v2 .hkd-nv4-bg {
+        background-image: url(../images/hkd_gr4_003_156.gif);
+		background-position: 0px 0px;
+}
+
+
+
+#hkd-nv4 li,
+#hkd-nv4-1 li {
+	display: block;
+	padding: 1px 0 9px 0px;
+}
+
+
+#hkd-nv4 li.hkd-lv-break,
+#hkd-nv4-1 li.hkd-lv-break {
+	padding-bottom: 25px;
+}
+#hkd-nv4 li a,
+#hkd-nv4-1 li a {
+	padding-left: 17px;
+}
+#hkd-nv4 li a.hkd-active,
+#hkd-nv4-1 li a.hkd-active {
+	font-weight: bold;
+}
+
+#hkd-nv4 li span { padding-left: 17px; }
+
+
+
+.hkd-sm-status ul {
+        margin-top: 10px;
+}
+.hkd-sm-status ul li a {
+        padding: 2px 0 3px 0;
+}
+
+
+/********************************** Subnavi - Level 4 / HILFE/FAQ *************************/
+
+.hkd-faq #hkd-nv4,
+.hkd-help #hkd-nv4 {
+         background-image: url(../images/hkd_hp_02.gif);
+         background-color: #fff;
+         border-top: 1px solid #DFC599;
+         border-left: 1px solid #CF9F4D;
+         border-bottom: 1px solid #9F7731;
+         margin-top: 10px;
+         padding: 20px 0 0 10px;
+         line-height: 1.3em;
+         width: 380px;
+}
+.hkd-faq #hkd-nv4 {
+         background-image: url(../images/hkd_faq_02.gif);
+         border-top: 1px solid #A7CEDF;
+         border-left: 1px solid #A7CEDF;
+         border-bottom: 1px solid #A7CEDF;
+}
+
+.hkd-faq #hkd-nv4 ul,
+.hkd-help #hkd-nv4 ul {
+         list-style-position: outside;
+         margin-bottom: 10px;
+}
+.hkd-faq #hkd-nv4 li,
+.hkd-help #hkd-nv4 li {
+         padding: 0 10px 10px 17px;
+         background-image: url(../images/hkd_ic_doc_help.gif);
+}
+.hkd-faq #hkd-nv4 li a,
+.hkd-help #hkd-nv4 li a {
+	 padding-left: 0px;
+}
+.hkd-faq #hkd-nv4 li.hkd-active a {
+         font-weight: bold;
+}
+.hkd-faq #hkd-nv4 li.hkd-active {
+         background-position: 0 -100px;
+}
+
+/********************************** Extra-Navi - Meta Navi ********************/
+
+/*	umfasst Loginname, Metanavi, Suche */
+#hkd-header .hkd-navi {
+	float: left;
+	width: 772px;
+	padding: 8px 0;
+	background-image: url(../images/hkd_gr1_001_032.gif);
+	background-repeat: repeat-x;
+}
+
+
+
+
+/********************************** Extra-Navi - Metanavi *********************/
+#hkd-nvx1 {
+	float: left;
+	width: 304px;
+}
+#hkd-nvx1 li {
+	display: block;
+	float: left;
+	margin-left: 22px;
+}
+#hkd-nvx1 li.hkd-first {
+	margin-left: 0;
+}
+#hkd-nvx1 li a {
+	display: block;
+	padding: 2px 0 1px 18px;
+}
+
+
+
+
+/********************************** Extra-Navi - Footernavi *******************/
+#hkd-nvx2 {
+	float: left;
+	width: 100%;
+	padding: 14px 0 21px 0;
+}
+#hkd-nvx2 li {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	padding-left: 11px;
+	background-image: url(../images/hkd_nvx2.gif);
+}
+#hkd-nvx2 li.hkd-first {
+	margin-left: 7px;
+	padding-left: 0;
+	background: none;
+}
+
+
+
+/********************************** Extra-Navi - Loginname ********************/
+#hkd-nvx3 {
+	float: left;
+	width: 266px;
+	margin-left: 18px;
+}
+#hkd-nvx3 li {
+	display: block;
+	float: left;
+	padding-right: 32px;
+}
+#hkd-nvx3 li.hkd-first {
+	padding-right: 16px;
+}
+/*** user nich als gh */
+#hkd-nvx3 li a,
+#hkd-nvx3 li span.hkd-login-ngp {
+	display: block;
+	padding: 2px 0 1px 0;
+}
+#hkd-nvx3 li span.hkd-login-ngp {
+    font-weight: bold;
+}
+
+
+#hkd-nvx3 li.hkd-first a {
+	padding-left: 18px;
+	font-weight: bold;
+}
+
+#hkd-header .hkd-navi #hkd-nvx3 .hkd-bx-config li.hkd-first a {
+    padding-left: 0;
+}
+
+
+
+/********************************** Extra-Navi - Hilfe ************************/
+#hkd-nvx4 {
+	float: right;
+	width: 201px;
+
+}
+#hkd-nvx4 li {
+	display: block;
+	float: left;
+	margin-left: 3px;
+        font-weight: bold;
+}
+#hkd-nvx4 li.hkd-first {
+	margin-left: 0;
+}
+#hkd-nvx4 li.hkd-last {
+	float: right;
+	margin-right: 13px;
+}
+#hkd-nvx4 li a {
+	display: block;
+	padding: 10px 14px 8px 10px;
+	background-image: url(../images/hkd_nv_tab1.gif);
+	background-position: 100% 0px;
+}
+#hkd-nvx4 li.hkd-last a.hkd-active {
+    background-image: url(../images/hkd_nv_tab1_hlp.gif);
+}
+
+#hkd-nvx4 li a:hover, 
+#hkd-nvx4 li a.hkd-active {
+	background-position: 100% -100px;
+}
+
+
+
+/********************************** Navi oberhalb einer Tabelle ***************/
+.hkd-nvx5 {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-bottom: 1.0em;
+    display: block;
+    padding-bottom: 3px;
+}
+.hkd-nvx5-gap {
+    margin-top: 3.0em;
+}
+.hkd-nvx5 a.hkd-has-ic {
+    padding: 4px 0 0 20px;
+    font-size: 120%;
+    display: block;
+    height: 19px;
+}
+
+.hkd-grid-2col .hkd-headline {
+    width: auto;
+    padding-right: 50px;        
+}
+
+
+.hkd-grid-2col .hkd-headline-function {
+    width: auto; 
+}
+
+
+
+
+/***tabs spalten breiten variante, produkte firmen  */
+
+.hkd-tab-t1 #hkd-nv3 {
+        width: 886px; 
+}
+
+.hkd-tab-t1 #hkd-nvx4 {
+        width: 70px; 
+}
+
+
+

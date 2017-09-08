@@ -1,0 +1,64 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2011-03-09
+*******************************************************************************/
+
+/*** GRAUE NAVI */
+.hkd-xadmin #hkd-wrapper #hkd-ct1 .hkd-content {
+        background-image: url(../images/hkd_gr2_001_038_xadmin.gif);
+}
+.hkd-xadmin #hkd-nv3 li a {
+	background-image: url(../images/hkd_nv_tab1_xadmin.gif);
+}
+.hkd-xadmin #hkd-header .hkd-navi {
+        background-image: url(../images/hkd_gr1_001_032_xadmin.gif);
+}
+.hkd-xadmin #hkd-nvx4 li a {
+	background-image: url(../images/hkd_nv_tab1_xadmin.gif);
+}
+
+
+/*** TABELLEN SPALTEN, ADDS */
+
+.hkd-tbl-col-datum-version {
+	width: 84px;
+}
+
+
+.hkd-xadmin .hkd-tbl1 tbody td,
+.hkd-xadmin .hkd-tbl1 tfoot td {
+        vertical-align: top;
+}
+
+.hkd-tbl-col-untersparte {
+        width: 120px;
+}
+.hkd-tbl-col-rechner {
+        width: 88px;
+}
+
+
+
+/***  TARIF/FORM ANLEGEN */
+.hkd-grid-xadmin-form-anlegen .hkd-col {
+         width: 570px;
+}
+.hkd-grid-xadmin-form-anlegen .hkd-col-first {
+        width: 390px;
+}
+
+
+select.hkd-form-s-multi {
+        width: 550px;
+        
+}
+
+.hkd-form .hkd-form-element select.hkd-form-s-multi {
+        font-size: 11px;
+}
+
+
+
+

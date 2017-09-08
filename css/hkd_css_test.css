@@ -1,0 +1,20 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2011-09-08
+*******************************************************************************/
+
+
+/* upload schadensmeldung */
+.hkd-bx5-content .hkd-col-last .hkd-message-box {
+    width: 95%;
+    display: block;
+    clear: both;
+}
+
+/* tarifrechner legal zusammenfassung */
+.hkd-legal p {
+    width: 100%;
+    display: block;
+}

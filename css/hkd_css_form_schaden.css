@@ -1,0 +1,139 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2011-03-09
+*******************************************************************************/
+
+
+
+/* kennzeichnung: offen, fehler */
+.hkd-bx5-1 .hkd-hd1 {
+        background-image: url(../images/hkd_gr2_004_038.gif);
+}
+.hkd-bx5-2 .hkd-hd1 {
+        background-image: url(../images/hkd_gr2_003_038.gif);
+}
+
+
+.hkd-bx5-content {
+        float: left;
+        margin: 5px 0 3px 12px;
+}
+
+/************* reset form elements **********************/
+.hkd-bx5 .hkd-form-data .hkd-form-wrapper {
+	padding: 0px; 
+}
+
+.hkd-bx5 .hkd-form-data {
+        width: 100%;
+        float: left;
+}
+
+
+
+.hkd-bx5 .hkd-form-data legend,
+.hkd-bx5 .hkd-form-data .hkd-form-wrapper,
+.hkd-bx5 .hkd-form-data .hkd-form-function .hkd-form-element  {
+         padding-left: 0px;
+}
+.hkd-bx5 .hkd-form-data legend {
+         margin-bottom: 3px;
+         margin-left: 0px;
+         padding: 0;
+}
+.hkd-bx5 .hkd-form-data .hkd-form-checkbox label, 
+.hkd-bx5 .hkd-form-data .hkd-form-radio label {
+         width: 300px;
+}
+
+
+.hkd-bx5 .hkd-bx5-line {
+         border-top: 1px solid #DDEAF8;
+         padding-top: 10px;
+}
+
+
+
+
+/************* anpassung breiten grid 2col **************/
+.hkd-bx5 .hkd-grid-2col .hkd-col {
+        width: 360px; 
+}
+
+.hkd-bx5 .hkd-grid-2col p.hkd-fieldset-copy {
+        padding-right: 30px;
+}
+
+
+
+/************* anpassung breiten grid 3col => hkd_css_basic  **************/
+.hkd-bx5 .hkd-grid-3col .hkd-col {
+        width: 242px; 
+}
+.hkd-bx5 .hkd-grid-3col .hkd-form-checkbox label, 
+.hkd-bx5 .hkd-grid-3col .hkd-form-radio label {
+         width: 200px;
+}
+
+
+
+
+.hkd-bx5 p.hkd-fieldset-copy {
+        padding: 0 0 2px 0;
+        color: #0372a5;
+        margin-left: 0px
+}
+p.hkd-fieldset-frage {
+        font-weight: bold;
+        width: 98%;
+}
+
+.hkd-bx5 p.hkd-fieldset-hinweis {
+        color: #5e5f5f;
+        font-size: 110%;
+}
+
+
+
+
+
+
+.hkd-bx-submit .hkd-form-data .hkd-form-function {
+        padding: 8px 0 10px 0;
+        border: none;
+        background-image: url(../images/hkd_gr5_002_072.gif);
+}
+.hkd-bx5 .hkd-form-data .hkd-form-add-schadenmeldung {
+        padding: 8px 0 30px 8px;
+        border: none;
+        background-image: none;
+}
+
+.hkd-bx-submit .hkd-bx-content {
+        padding: 2px 3px 0 2px;
+}
+
+.hkd-form-submit {
+        margin-left: 2px;
+}
+
+a.hkd-form-submit {
+   background-image: url("../images/hkd_gr3_001_015.gif");
+   background-position: 0 1px;
+   background-repeat: repeat-x;
+   border: 1px solid #6BB7DA;
+   padding: 3px 4px;
+   color: #5488A2;
+}
+
+
+
+
+/************* in hkd_css_form_schaden.css **************/
+/************* anpassung breiten grid 1col **************/
+.hkd-bx5 .hkd-grid-1col .hkd-col {
+       width: 724px; 
+}
+

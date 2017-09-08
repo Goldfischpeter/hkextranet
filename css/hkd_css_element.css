@@ -1,0 +1,981 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Stand		: 2017-03-31
+*******************************************************************************
+
+2017-03-31: #319 Icon H-Postion
+/
+
+.hkd-hd1 {
+	padding: 8px 5px 7px 5px;		/* pat und pab ggf. bei  -> hkd-bx-config <-  aendern */
+	background-image: url(../images/hkd_gr2_001_038.gif);
+	background-repeat: repeat-x;
+	background-color: #fff; /* bx fix */
+}
+
+.hkd-bx9 .hkd-bx-content .hkd-hd1,
+.hkd-bx10 .hkd-bx-content .hkd-hd1 {
+	padding: 8px 5px 7px 5px;
+	background-image: url(../images/hkd_gr5_bx9.gif);
+	background-repeat: repeat-x;
+}
+
+
+
+
+/* cms */
+.hkd-hl2 {
+	clear: both;
+	padding: 8px 0 3px 17px;
+}
+
+/* headline und funktionen */
+.hkd-hl3 {
+	padding-left: 17px;
+}
+
+/* faq */
+.hkd-hl4 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+} 
+
+/* schadenmeldungen */ 
+.hkd-hl6 {
+	color: #fff;
+	display: block;
+	padding: 3px 0 3px 4px;
+	background-color: #26A7CF;
+	border-top: 1px solid #fff;
+}
+
+/* meldungen */
+.hkd-hl7 {
+	padding-bottom: 10px;
+}
+
+
+
+
+.hkd-state-1,
+.hkd-state-2,
+.hkd-state-3 {
+	display: block;
+	padding: 2px 0 2px 18px;
+	background-position: 0 0px;
+}
+
+.hkd-state-1 { background-image: url(../images/hkd_ic_status_1.gif); }
+.hkd-state-2 { background-image: url(../images/hkd_ic_status_2.gif); }
+.hkd-state-3 { background-image: url(../images/hkd_ic_status_3.gif); }
+
+
+
+
+.hkd-faq #hkd-ct2 .hkd-copy .hkd-hl5,
+.hkd-help #hkd-ct2 .hkd-copy .hkd-hl5 {
+	background-image: url(../images/hkd_hp_ic_2.png);
+	background-position: -5px -5px;
+	display: block;
+	height: 50px;
+	padding: 12px 0 0 56px;
+	margin-left: -8px;
+}
+
+.hkd-faq #hkd-ct2 .hkd-copy .hkd-hl5{
+	background-image: url(../images/hkd_hp_ic_1.png);
+}
+.hkd-faq #hkd-ct3 .hkd-hl1,
+.hkd-help #hkd-ct3 .hkd-hl1 {
+     margin-bottom: 10px;
+}
+
+
+
+
+/********************************** Links *************************************/
+
+/*	Document */
+a.hkd-ic-doc {
+	display: block;
+	width: 16px;
+	height: 19px;
+	text-indent: -1000em;
+}
+
+a.hkd-lk1 {
+	text-decoration: underline;
+}
+
+/* Alle Details anzeigen - oben rechts */
+a.hkd-lk2 {
+        cursor:pointer;
+}
+
+/* Alle Details anzeigen - unterhalb der Tabelle */
+a.hkd-lk3 {
+	display: block;
+	padding: 4px 0 3px 19px;
+	background-color: #ddebf9;
+	background-position: 5px 50%;
+	font-weight: bold;
+}
+a.hkd-lk3:hover {
+	text-decoration: underline;
+}
+
+.hkd-details a:hover,
+.hkd-help #hkd-nv4 li a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* Als Link darstellen */
+.aLink{
+   color: #0372A5 !important;
+   text-decoration: underline;
+}
+
+
+/********************************** Icons *************************************/
+
+/*	kann als Icon und als Button verwendet werden, daher nichts weiter notieren */
+a.hkd-ic1:hover, 
+a.hkd-ic2:hover, 
+a.hkd-ic3:hover, 
+a.hkd-ic4:hover, 
+a.hkd-ic5:hover, 
+a.hkd-ic6:hover, 
+.hkd-active a.hkd-ic1, 
+.hkd-active a.hkd-ic2, 
+.hkd-active a.hkd-ic3, 
+.hkd-active a.hkd-ic4, 
+.hkd-active a.hkd-ic5, 
+.hkd-active a.hkd-ic6 {
+	background-position: 0px -100px;
+}
+
+/*	nv1 	-> Fade In */
+a.hkd-ic1 {
+	background-image: url(../images/hkd_ic_up.gif);
+}
+/* 	nv1 	-> Fade Out
+		nvx3 	-> Loginname
+*/
+a.hkd-ic2 {
+	background-image: url(../images/hkd_ic_down.gif);
+}
+/*	nvx1 	-> Startseite */
+a.hkd-ic3 {
+	background-image: url(../images/hkd_ic_home.gif);
+}
+/*	nvx1 	-> Kontakt */
+a.hkd-ic4 {
+	background-image: url(../images/hkd_ic_pencil.gif);
+}
+/*	nvx1 	-> FAQ */
+a.hkd-ic5 {
+	background-image: url(../images/hkd_ic_question_mark.gif);
+}
+/*	nv4 	-> <a> Elemente */
+a.hkd-ic6 {
+	background-image: url(../images/hkd_ic_document.gif);
+}
+
+
+/*	tbl-sort 	-> Sortierung Down */
+a.hkd-ic7 {
+	background-image: url(../images/hkd_ic_sort_down.gif);
+}
+
+/*	tbl-sort 	-> Sortierung Up */
+a.hkd-ic8 {
+	background-image: url(../images/hkd_ic_sort_up.gif);
+}
+
+
+
+/*	tbl-config 	-> Spalten einblenden - Plus */
+a.hkd-ic9 {
+	background-image: url(../images/hkd_ic_config_plus.gif);
+}
+/*	tbl-config 	-> Spalten ausblenden - Minus */
+a.hkd-ic10 {
+	background-image: url(../images/hkd_ic_config_minus.gif);
+}
+
+/*	PDF */
+a.hkd-ic11 {
+	background-image: url(../images/hkd_ic_pdf.gif);
+}
+/*	XLS */
+a.hkd-ic12 {
+	background-image: url(../images/hkd_ic_xls.gif);
+}
+/*	Drucken */
+a.hkd-ic13 {
+	background-image: url(../images/hkd_ic_print.gif);
+}
+/*	Config */
+a.hkd-ic14 {
+	background-image: url(../images/hkd_ic_config.gif);
+}
+
+/*	Pagination - prev */
+a.hkd-ic15 {
+	background-image: url(../images/hkd_ic_pagi_prev.gif);
+}
+a.hkd-ic15:hover {
+	background-position: 0px -100px;
+}
+/*	Pagination - next */
+a.hkd-ic16 {
+	background-image: url(../images/hkd_ic_pagi_next.gif);
+}
+a.hkd-ic16:hover {
+	background-position: 0px -100px;
+}
+/*	Tabellenfilter - update */
+a.hkd-ic17 {
+	background-image: url(../images/hkd_ic_update.gif);
+}
+a.hkd-ic17:hover {
+	background-position: 0px -100px;
+}
+/*	Tabellenfilter - reset */
+a.hkd-ic18 {
+	background-image: url(../images/hkd_ic_reset.gif);
+}
+a.hkd-ic18:hover {
+	background-position: 0px -100px;
+}
+
+
+/*	Config Min/Max */
+a.hkd-ic19 {
+	background-image: url(../images/hkd_ic_config_max.gif);
+}
+a.hkd-ic20 {
+	background-image: url(../images/hkd_ic_config_min.gif);
+}
+
+/*	Funktionen Tabellen, Eingaben */
+a.hkd-ic21 {
+	background-image: url(../images/hkd_ic_edit.gif);
+}
+a.hkd-ic22 {
+	background-image: url(../images/hkd_ic_mdelete.gif);
+}
+
+a.hkd-ic23 {
+	background-image: url(../images/hkd_ic_download.gif);
+        margin-left: 7px;
+}
+
+
+/* TEXT/CMS */
+a.hkd-ic24 {
+	background-image: url(../images/hkd_ic_up.gif);
+	padding-left: 20px;
+}
+
+
+/* LOESCHEN */
+a.hkd-ic25 {
+	background-image: url(../images/hkd_ic_sdelete.gif);
+}
+/* SPERREN */
+a.hkd-ic26 {
+	background-image: url(../images/hkd_ic_lock.gif);
+}
+/* FREIGEBEN */
+a.hkd-ic27 {
+	background-image: url(../images/hkd_ic_unlock.gif);
+}
+/*UEBERNEHMEN */
+a.hkd-ic28 {
+	background-image: url(../images/hkd_ic_apply.gif);
+}
+/*SCHRIFTVERKEHR */
+a.hkd-ic29 {
+	background-image: url(../images/hkd_ic_schriftverkehr.gif);
+}
+
+
+/*KONFIG */
+a.hkd-ic30 {
+	background-image: url(../images/hkd_ic_config_email.gif);
+}
+
+/*** RECHNER ICONS */
+.hkd-ic31 {
+	background-image: url(../images/hkd_ic_calculator.gif);
+}
+.hkd-ic31-inaktiv {
+	background-image: url(../images/hkd_ic_calculator_inaktiv.gif);
+}
+
+/*** RECHNER ICONS */
+#hkd-nv1 .hkd-ic31,
+#hkd-nv1 .hkd-ic31-inaktiv {
+	background-position: right 1px;
+}
+
+
+/*** MULTIPLE SELECT ADD + DELETE */
+a.hkd-ic32 {
+	background-image: url(../images/hkd_ic_select_add.gif);
+}
+a.hkd-ic33 {
+	background-image: url(../images/hkd_ic_select_delete.gif);
+}
+/*** GDV */
+a.hkd-ic34 {
+	background-image: url(../images/hkd_ic_gdv.gif);
+}
+a.hkd-ic35 {
+	background-image: url(../images/hkd_ic_gdv_order.gif);
+}
+/* FORM FREIGEBEN, VORSCHAU */
+a.hkd-ic36 {
+	background-image: url(../images/hkd_ic_unlock.gif);
+}
+/* VORSCHAU */
+a.hkd-ic37 {
+	background-image: url(../images/hkd_ic_preview.gif);
+}
+
+/* TARIF BERECHEN */
+a.hkd-ic38 {
+	background-image: url(../images/hkd_ic_tarif_calc_1.gif);
+        width: 255px;
+	height: 60px;
+}
+a.hkd-ic39 {
+	background-image: url(../images/hkd_ic_tarif_calc_2.gif);
+        width: 255px;
+	height: 60px;
+}
+
+a.hkd-ic40 {
+	background-image: url(../images/hkd_ic_zip.gif);
+}
+a.hkd-ic41 {
+	background-image: url(../images/hkd_ic_close.gif);
+        background-position: 100% 0;
+}
+
+a.hkd-ic42 {
+	background-image: url(../images/hkd_ic_status_1.gif);
+}
+a.hkd-ic43 {
+	background-image: url(../images/hkd_ic_status_2.gif);
+}
+a.hkd-ic44 {
+	background-image: url(../images/hkd_ic_status_3.gif);
+}
+
+a.hkd-ic45 {
+	background-image: url(../images/hkd_ic_csv.gif);
+}
+a.hkd-ic46 {
+	background-image: url(../images/hkd_ic_sum.gif);
+}
+a.hkd-ic47 {
+	background-image: url(../images/hkd_ic_multiple_pdfs.gif);
+        width: 20px;
+}
+a.hkd-ic48 {
+	background-image: url(../images/hkd_ic_form.gif);
+	padding-left: 20px;
+}
+
+
+/*	XLSX */
+a.hkd-ic49 {
+	background-image: url(../images/hkd_ic_xlsx.gif);
+}
+/*	WORD DOC */
+a.hkd-ic50 {
+	background-image: url(../images/hkd_ic_doc.gif);
+}
+/*	WORD DOCX */
+a.hkd-ic51 {
+	background-image: url(../images/hkd_ic_docx.gif);
+}
+/*	JPG */
+a.hkd-ic52 {
+	background-image: url(../images/hkd_ic_jpg.gif);
+}
+/*	TIFF */
+a.hkd-ic53 {
+	background-image: url(../images/hkd_ic_tif.gif);
+}
+/*	TXT */
+a.hkd-ic54 {
+	background-image: url(../images/hkd_ic_txt.gif);
+}
+
+
+
+
+/* Tarifrechner Icon */
+a.hkd-ic55 {
+	background-image: url(../images/hkd_ic_info.gif);
+        padding-left: 10px;
+        margin-left: 4px;
+}
+/* back */
+a.hkd-ic56 {
+	background-image: url(../images/hkd_ic_pagi_prev.gif);
+        background-position: 0 1px;
+}
+/* TR Leistungsuebersicht */
+a.hkd-ic57 {
+        padding: 3px 20px 3px 0px;
+	background-image: url(../images/hkd_ic_tarif_leistungsuebersicht.gif);
+        background-position: 0 0;
+        text-decoration: underline;
+        background-position: 100% 0;
+}
+
+a.hkd-ic58 {
+	background-image: url(../images/hkd_ic_down.gif);
+	padding-left: 20px;
+}
+
+
+/* TARIF BERECHNEN DROPDOWN */
+a.hkd-ic59 {
+	background-image: url(../images/hkd_ic_tarif_calc_3_1.gif);
+        width: 272px;
+	height: 60px;
+}
+
+
+/* REIHENFOLGE */
+a.hkd-ic60 {
+	background-image: url(../images/hkd_ic_exe.gif);
+}
+a.hkd-ic61 {
+	background-image: url(../images/hkd_ic_prio_up.gif);
+}
+a.hkd-ic62 {
+	background-image: url(../images/hkd_ic_prio_down.gif);
+}
+
+/* TR ANGEBOT UEBERNEHMEN */
+a.hkd-ic63 {
+	background-image: url(../images/hkd_ic_tr_apply.gif);
+}
+
+
+
+a.hkd-ic64 {
+	background-image: url(../images/hkd_ic_sel_all.gif);
+}
+
+a.hkd-ic65 {
+	background-image: url(../images/hkd_ic_document_info.gif);
+}
+a.hkd-ic66 {
+	background-image: url(../images/hkd_ic_document_edit.gif);
+}
+
+/* close in messages */
+a.hkd-ic67 {
+        background-image: url(../images/hkd_ic_close.gif);
+        background-position: 100% 0;
+        display: block;
+        float: right; 
+        width: 75px;
+}
+
+a.hkd-ic68 {
+	background-image: url(../images/hkd_ic_add_to_upload.gif);
+}
+a.hkd-ic69 {
+	background-image: url(../images/hkd_ic_pdf_remove.gif);
+}
+a.hkd-ic70 {
+	background-image: url(../images/hkd_ic_pdf_add.gif);
+}
+a.hkd-ic71 {
+	background-image: url(../images/hkd_ic_nav4_edit.gif);
+}
+a.hkd-ic72 {
+	background-image: url(../images/hkd_ic_nav4_info.gif);
+}
+a.hkd-ic73 {
+	background-image: url(../images/hkd_ic_nav4_vn.gif);
+}
+a.hkd-ic74 {
+	background-image: url(../images/hkd_ic_nav4_wvt.gif);
+}
+a.hkd-ic75 {
+	background-image: url(../images/hkd_ic_nav4_cancel.gif);
+}
+a.hkd-ic76 {
+	background-image: url(../images/hkd_ic_nav4_send.gif); 
+}
+
+/* TR Kurzangebot */
+a.hkd-ic77 {
+        padding: 3px 20px 3px 0px;
+	background-image: url(../images/hkd_ic_tarif_kurzangebot.gif);
+        background-position: 0 0;
+        text-decoration: underline;
+        background-position: 100% 0;
+}
+
+
+
+
+
+.hkd-message-tipp a.hkd-ic67,
+.hkd-message-formsend a.hkd-ic67  {
+    background-image: url(../images/hkd_ic_close.gif);
+}
+
+.hkd-message-error a.hkd-ic67 {
+    background-image: url(../images/hkd_ic_close_1.gif);
+}
+
+.hkd-message-ok a.hkd-ic67,
+.hkd-message-confirm a.hkd-ic67 {
+    background-image: url(../images/hkd_ic_close_3.gif);
+}
+
+
+
+/* Einfuehrung */
+.hkd-grid-5col .hkd-col a {
+        font-weight: bold;
+}
+.hkd-grid-5col .hkd-col a:hover {
+        text-decoration: underline;
+}
+.hkd-grid-5col .hkd-col a.hkd-media-starten {
+        background-image: url(../images/hkd_ic_pagi_next.gif);
+        padding-left: 20px;
+}    
+
+.hkd-grid-5col .hkd-col .hkd-mediatitle {
+        line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hkd-tbl1 tbody td a,
+.hkd-tbl8 tbody td a {
+        text-decoration: underline;
+}
+
+
+
+/*** tarif rechner links, produkte */
+a.hkd-ic-xl {
+        display: block;
+	    text-indent: -1000em;
+}
+
+a.hkd-ic-doc:hover,
+a.hkd-ic-doc-txt:hover,
+a.hkd-ic-xl:hover,
+a.hkd-has-ic-float:hover {
+	background-position: 0px -100px;
+}
+a.hkd-has-ic-float {
+	text-decoration: none;
+}
+a.hkd-ic-doc-txt {
+	display: block;
+	width: 48px;
+	height: 16px;
+	text-indent: 0;
+        padding-left: 20px;
+        padding-top: 3px;
+}
+.hkd-tbl1 tbody td a.hkd-ic-doc-txt,
+.hkd-tbl8 tbody td a.hkd-ic-doc-txt{
+        text-decoration: none;
+}
+
+
+/* icon in text */
+.hkd-has-ic-float {
+       
+}
+
+
+
+
+/*** mehrere icons in einem td */
+.hkd-has-doc-col a.hkd-ic-doc {
+       display: block;
+       float: left;
+       padding-right: 8px;
+}
+
+
+/*	Tabellenfilter - update */
+a.hkd-ic-update, 
+a.hkd-ic-reset {
+	display: block;
+	float: left;
+	width: 27px;
+	height: 22px;
+	text-indent: -1000em;
+}
+a.hkd-ic-update:hover, 
+a.hkd-ic-reset:hover {
+	background-position: 0px -100px;
+}
+.hkd-form-table-filter a.hkd-ic-update {
+	margin-right: 0px;
+}
+
+
+
+/* Kann ic7 oder ic8 enthalten */
+
+.hkd-tbl1 thead th.hkd-tbl-sort a{
+	display: block;
+	padding: 0 0 11px 4px;
+}
+
+
+
+
+/* Kann ic9 oder ic10 enthalten */
+.hkd-tbl1 thead td.hkd-tbl-config a {
+	display: block;
+	width: 11px;
+	height: 11px;
+	text-indent: -1000em;
+}
+
+
+/* Spezial Positionierungen, left align = default */
+.hkd-tbl-sort-active a.hkd-ic7, 
+.hkd-tbl-sort-active a.hkd-ic8 {
+	background-position: 1px 100%;
+}
+
+.hkd-algn-rght a.hkd-ic7, 
+.hkd-algn-rght a.hkd-ic8 {
+	background-position: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********************************** Config ************************************/
+
+.hkd-bx-config {
+	padding-top: 6px;
+	padding-bottom: 6px;		/* pat und pab ggf. bei  -> hkd-hd1 <-  aendern */
+    /*position: relative;*/
+}
+td.hkd-bx-config .hkd-bx-config,
+.hkd-tarifrechner-select {
+	position: relative;
+	padding: 0;
+        
+}
+.hkd-bx-config .hkd-bx-config-btn {
+	width: 13px;
+	height: 15px;
+	background-image: url(../images/hkd_ic_config_down.gif);
+	text-indent: -1000em;
+	cursor: pointer;
+}
+.hkd-bx-config .hkd-bx-config-btn {
+	float: left;
+	margin-right: 5px;
+}
+.hkd-bx-config .hkd-hl1 {
+	float: left;
+}
+.hkd-bx-config .hkd-bx-show-all {
+	float: right;
+}
+.hkd-bx-config .hkd-hl1, 
+.hkd-bx-config .hkd-bx-show-all {
+	padding-top: 2px;
+}
+
+
+.hkd-bx-config .hkd-bx-config-flyout {
+/*	display: none;
+*/
+	position: absolute;
+	top: 23px;
+	left: 7px;
+	z-index: 100;
+	width: 367px;
+	padding: 5px 0;
+	background-color: #0372a5;
+}
+
+td.hkd-bx-config .hkd-bx-config .hkd-bx-config-flyout {
+	top: 0;
+	left: 0;
+	width: 248px;
+}
+
+#hkd-bx-config-c2 {
+        width: 208px;
+}
+
+
+
+
+/* tarifrechner dropdown , produkte */
+.hkd-tarifrechner-select .hkd-bx-config-flyout {
+        width: 195px;
+        background-color: #4a8bcb;
+        background-image: url(../images/hkd_config_01.gif);
+        background-repeat: repeat-x;
+        border-top: 1px solid #7cb3eb;
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        border-left: 1px solid #fff;
+        top: 43px;
+	left: 55px;
+        padding: 0;
+}
+
+.hkd-tarifrechner-select .hkd-bx-config {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************** Listen ************************************/
+/*
+	ls1 -> Tabelle exportieren, drucken, kofigurieren
+*/
+dl.hkd-ls1 dt, 
+dl.hkd-ls1 dd {
+	display: block;
+	float: left;
+}
+dl.hkd-ls1 dt {
+	padding: 2px 7px 0 8px;
+}
+dl.hkd-ls1 dt.hkd-first {
+	padding-left: 0;
+}
+dl.hkd-ls1 a.hkd-ic-doc {
+	float: left;
+	margin-right: 9px;
+}
+
+/*
+	ls2 -> Pagination, Seitenzahlen
+*/
+ul.hkd-ls2, 
+ul.hkd-ls2 li {
+	display: inline;
+}
+ul.hkd-ls2 li {
+	padding-left: 5px;
+	background-image: url(../images/hkd_ln_gr_001_009.gif);
+	background-position: 0px 50%;
+}
+ul.hkd-ls2 li.hkd-last {
+	padding-right: 15px;
+}
+ul.hkd-ls2 li.hkd-first, 
+ul.hkd-ls2 li.hkd-prev, 
+ul.hkd-ls2 li.hkd-next {
+	background: none;
+}
+ul.hkd-ls2 li.hkd-prev, 
+ul.hkd-ls2 li.hkd-next {
+	padding-left: 0px;
+}
+ul.hkd-ls2 li.hkd-prev a, 
+ul.hkd-ls2 li.hkd-next a {
+	padding-left: 15px;
+}
+ul.hkd-ls2 li.hkd-prev a {
+	margin-right: 5px;
+}
+
+/*
+	ls3 -> Neues im Extranet
+*/
+ul.hkd-ls3 li {
+	display: block;
+	padding: 4px 4px 3px 4px;
+	border-bottom: 1px solid #ededed;
+}
+
+/*
+	ls4 -> Flyout Configbox
+*/
+ul.hkd-ls4 {
+	margin: 0 18px;
+}
+ul.hkd-ls4 li {
+	display: block;
+	padding: 4px 4px 3px 0px;
+	font-weight: bold;
+}
+
+
+
+
+/* userwechsel */
+
+#hkd-nvx3 .hkd-bx-config ul.hkd-ls4 li {
+        float: none;
+        padding: 2px 4px 1px 0px;
+}
+
+
+
+
+/* tarifrechner dropdown */
+
+.hkd-tarifrechner-select ul.hkd-ls4 {
+	margin: 0;
+}
+.hkd-tarifrechner-select ul.hkd-ls4 li {
+        float: none;
+        padding: 3px 3px 3px 5px;
+        border-top: 1px solid #7cb3eb;
+        font-weight: normal;
+}
+.hkd-tarifrechner-select ul.hkd-ls4 li.hkd-first {
+        border-top: none;
+}
+
+
+
+
+
+
+
+/***
+       ls 5 FORM FUNC
+*/
+dl.hkd-ls5 {
+       padding-top: 3px;
+}
+dl.hkd-ls5 dt, 
+dl.hkd-ls5 dd {
+	display: block;
+	float: left;
+}
+dl.hkd-ls5 dt {
+	padding: 2px 7px 0 22px;
+}
+dl.hkd-ls5 dt.hkd-first {
+	padding-left: 40px;
+}
+dl.hkd-ls5 a.hkd-ic-doc {
+	float: left;
+	margin-right: 9px;
+}
+
+
+
+ul.calc li {
+   padding: 0 0 8px 24px;
+   background-image: none;
+   background-position: 0 0;
+}
+
+ul.calc li a {
+   color: #0372a5;
+   text-decoration: underline;
+}
+
+ul.calc {
+   margin: 10px 0 10px 0;
+}
+
+
+
+
+#hkd-ct2 .hkd-copy ul li,
+#hkd-ct3 .hkd-copy ul li {
+        padding-left: 10px;
+        background-image: url(../images/hkd_li.gif);
+        background-position: 0 7px;
+}
+#hkd-ct2 .hkd-copy ul.pdf li,
+#hkd-ct3 .hkd-copy ul.pdf li {
+        padding: 0 0 8px 24px;
+        background-image: url(../images/hkd_ic_pdf.gif);
+        background-position: 0 0;
+       
+}
+#hkd-ct2 .hkd-copy ul.calc li,
+#hkd-ct3 .hkd-copy ul.calc li {
+        padding: 0 0 8px 24px;
+        background-image: url(../images/hkd_ic_calc.gif);
+        background-position: 0 0;   
+}
+
+#hkd-ct2 .hkd-copy ul.calc li.hkd-inaktiv {
+        padding: 0 0 8px 24px;
+        background-image: url(../images/hkd_ic_calc_inaktiv.gif);
+        background-position: 0 0;   
+}
+
+
+
+
+
+/* Als Link darstellen */
+.aLink{
+    color: #0372A5 !important;
+    text-decoration: underline;
+}
+
+
+
+

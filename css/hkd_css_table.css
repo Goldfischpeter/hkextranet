@@ -1,0 +1,829 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2016-09-05
+*******************************************************************************/
+
+
+.hkd-tbl1 {
+	clear: both;
+	padding-bottom: 25px;
+	border-top: 1px solid #C4C3C3;
+}
+.hkd-tbl1 table {
+	width: 100%;
+}
+.hkd-tbl-w98 {
+        width: 96.2%;
+}
+
+.hkd-grid-ct2-pdr .hkd-tbl1 {
+	width: 96%;
+}
+
+/*	Breiten */
+.hkd-tbl-col-ort, 
+.hkd-tbl-col-nachname {
+	width: 161px;
+}
+.hkd-tbl-col-vorname {
+	width: 100px;
+}
+.hkd-tbl-col-plz {
+	width: 50px;
+}
+.hkd-tbl-col-ort {
+	width: 80px;
+}
+.hkd-tbl-col-strasse {
+	width: 180px;
+}
+.hkd-tbl-col-kategorie {
+	width: 126px;
+}
+.hkd-tbl-col-datum {
+	width: 43px;
+}
+/* erzeugt am, download am */
+.hkd-tbl-col-datum-1 {
+        width: 140px;
+}
+.hkd-tbl-col-datum-2 {
+        width: 130px;
+}
+.hkd-tbl-col-datum-3 {
+        width: 90px;
+}
+.hkd-tbl-col-deckungsthema {
+	width: 120px;
+}
+.hkd-tbl-col-deckungsthema-unfall {
+	width: 160px;
+}
+.hkd-tbl-col-icon-1 {
+	width: 34px;
+}
+.hkd-tbl-col-icon-2 {
+	width: 20px;
+}
+
+
+
+
+.hkd-tbl-col-sparte,
+.hkd-tbl-col-url {
+	width: 160px;
+}
+.hkd-tbl-col-status {
+	width: 63px;
+}
+.hkd-tbl-col-versicherungsnummer,
+.hkd-tbl-col-schadennummer {
+	width: 72px;
+}
+.hkd-tbl-col-vermittlernummer {
+	width: 76px;
+}
+.hkd-tbl-col-fremdnummer {
+	width: 85px;
+}
+
+
+.hkd-tbl-col-beitrag {
+	width: 100px;
+}
+.hkd-tbl-col-betrag-1 {
+	width: 100px;
+}
+.hkd-tbl-col-betrag-2 {
+	width: 140px;
+}
+.hkd-tbl-col-betrag-3 {
+	width: 180px;
+}
+.hkd-tbl-col-schriftverkehr {
+	width: 80px;
+}
+.hkd-tbl-col-anzahl {
+	width: 110px;
+}
+.hkd-tbl-col-anzahl-1 {
+	width: 55px;
+}
+.hkd-tbl-col-anzahl-2 {
+	width: 200px;
+}
+.hkd-tbl-col-quote {
+	width: 50px;
+}
+
+
+
+.hkd-tbl-col-vorname,
+.hkd-tbl-col-betreff {
+	width: 116px;
+}
+
+.hkd-tbl-col-bezug {
+	width: 180px;
+}
+.hkd-tbl-col-gelesen {
+	width: 55px;
+}
+.hkd-tbl-col-auswahl {
+	width: 30px;
+}
+.hkd-tbl-col-function {
+	width: 20px;
+}
+.hkd-tbl-col-function-2 {
+	width: 57px;
+}
+.hkd-tbl-col-function-3 {
+	width: 80px;
+}
+.hkd-tbl-col-download {
+	width: 50px;
+}
+.hkd-tbl-col-telefon,
+.hkd-tbl-col-mobil,
+.hkd-tbl-col-fax {
+	width: 130px;
+}
+
+.hkd-tbl-col-mail {
+	width: 200px;
+}
+
+.hkd-tbl-col-info {
+	width: 160px;
+}
+.hkd-tbl-col-freie {
+	width: 70px;
+}
+.hkd-tbl-col-confirm {
+	width: 130px;
+}
+.hkd-tbl-col-reminder {
+        width: 110px;
+}
+
+
+
+/*** name, vorname fuer KontaktInfo.adminList */
+.hkd-tbl-col-vollname{
+    width: 180px;
+}
+
+.hkd-tbl-col-termin{
+    width: 140px;
+}
+
+
+
+
+/* tarifrechner, angaben default */
+.hkd-tbl-col1 {
+        width: 120px;
+}
+
+.hkd-auswahl-uv-config .hkd-tbl-col1 {
+        width: 212px;
+}
+
+
+.hkd-auswahl-uv-angaben .hkd-tbl-col1 {
+        width: 136px;
+}
+
+
+.hkd-tarif-zusammenfassung .hkd-tbl-col1 {
+        width: 366px;
+}
+
+
+
+
+.hkd-bx-modal-1 td { text-align: left; }
+
+
+
+
+.hkd-tbl1 thead {
+	background-image: url(../images/hkd_tbl1_thead.gif);
+	background-position: 0px 100%;
+	background-repeat: repeat-x;
+}
+.hkd-tbl1 thead th {
+	padding: 0 4px 2px 0;
+	background-image: url(../images/hkd_tbl1_th.gif);
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	border-bottom: 3px solid #C4C3C3;
+	font-weight: normal;
+        text-align: left;
+}
+
+/* default th padding-left */
+.hkd-tbl1 thead th {
+        padding-left: 4px; 
+}
+/* bei sort a padding-left */
+.hkd-tbl1 thead th.hkd-tbl-sort {
+        padding-left: 0px;
+}
+
+
+
+.hkd-tbl1 thead th.hkd-tbl-nosort {
+        padding: 0 4px 11px 4px;
+}
+
+
+
+
+
+.hkd-tbl1 thead th.hkd-tbl-first {
+}
+.hkd-tbl1 thead th.hkd-tbl-last {
+	background: none;
+}
+.hkd-tbl1 thead tr.hkd-tbl-config-off th {
+	border-top: 16px solid #FFF;
+}
+.hkd-tbl1 thead tr td.hkd-tbl-config {
+	padding-bottom: 5px;
+}
+
+/* alternative i-icon entfernt, fuer link in boxen vertragsdetails angepasst */
+.hkd-tbl1 .hkd-tbl-ic-info-2,
+.hkd-tbl3 .hkd-tbl-ic-info-2 {
+        background-image: url(../images/hkd_ic_info2.gif);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        padding-left: 9px;
+}
+
+
+
+
+
+
+.hkd-tbl1 tbody td, 
+.hkd-tbl1 tfoot td {
+	padding: 5px 4px 5px 4px;
+	border: 1px solid #CFCFCF;
+        vertical-align: middle;
+}
+.hkd-tbl1 tfoot td {
+        font-weight: bold;
+}
+
+.hkd-tbl1 tbody td.hkd-tbl-first, 
+.hkd-tbl1 tfoot td.hkd-tbl-first {
+	border-left: 0;
+}
+.hkd-tbl1-b thead th.hkd-tbl-first, 
+.hkd-tbl1-b tbody td.hkd-tbl-first, 
+.hkd-tbl1-b tfoot td.hkd-tbl-first {
+	padding-left: 17px;
+}
+.hkd-tbl1-b thead th.hkd-tbl-first.hkd-tbl-sort {
+	padding-left: 13px;
+}
+
+.hkd-tbl1 tbody td.hkd-tbl-last, 
+.hkd-tbl1 tfoot td.hkd-tbl-last {
+	border-right: 0;
+}
+.hkd-tbl1 .hkd-tbl-has-tfoot tbody tr.hkd-tbl-last td {
+	border-bottom-color: #A7A6A6;
+}
+.hkd-tbl1 .hkd-tbl-has-tfoot tfoot {
+	border-bottom: 2px solid #ABAAAA;
+}
+
+.hkd-tbl1 tbody tr.hkd-tbl-status-1 td {
+	background-color: #FFF2EF;
+}
+.hkd-tbl1 tbody tr.hkd-tbl-status-2 td {
+	background-color: #FBFFEF;
+}
+.hkd-tbl1 tbody tr.hkd-tbl-status-3 td {
+	background-color: #EFFEFF;
+}
+
+
+
+.hkd-tbl1 tbody td.hkd-has-doc {
+        vertical-align: top;
+}
+
+
+.hkd-tbl1 tbody td a:hover {
+    text-decoration: underline;
+}
+/*
+.hkd-tbl1 tbody td a:visited {
+    color: #77939F;
+}
+*/
+
+
+
+
+/*	Aktuelle Post */
+.hkd-tbl2 {
+	clear: both;
+}
+.hkd-tbl2 table {
+	width: 100%;
+}
+.hkd-tbl2 thead th {
+	padding: 6px 4px 5px 4px;
+	background-color: #f1f7fc;
+	border-left: 1px solid #afc6e0;
+	font-weight: normal;
+}
+.hkd-tbl2 thead th.hkd-tbl-first {
+	border-left: 0;
+}
+.hkd-tbl2 tbody td {
+	padding: 4px 4px 3px 4px;
+	border-bottom: 1px solid #ededed;
+        vertical-align: top;
+}
+
+.hkd-tbl2 a.hkd-active {
+        font-weight: bold;
+}
+
+
+
+/*	Vertragsdetail
+		 - Vertragsdaten
+		 - Deckungsumfang
+		  */
+.hkd-tbl3 {
+	clear: both;
+}
+.hkd-tbl3 table {
+	width: 100%;
+}
+.hkd-tbl3 tbody th, 
+.hkd-tbl3 tbody td {
+	padding: 4px 4px 3px 4px;
+	border-bottom: 1px solid #ededed;
+}
+.hkd-tbl3 tbody th {
+	font-weight: normal;
+}
+
+
+
+
+/*	Vertragsdetail - Download */
+.hkd-tbl4 {
+	clear: both;
+}
+.hkd-tbl4 table {
+	width: 100%;
+}
+.hkd-tbl4 tbody td {
+	padding: 4px 4px 3px 4px;
+	border-bottom: 1px solid #ededed;
+}
+.hkd-tbl4 tbody td.hkd-has-doc {
+	padding-top: 2px;
+	padding-bottom: 1px;
+	vertical-align: top;
+}
+
+
+
+/*	Tarifrechner Angaben */
+.hkd-tbl5 {
+	clear: both;
+}
+.hkd-tbl5 table {
+	width: 100%;
+}
+.hkd-tbl5 tbody th, 
+.hkd-tbl5 tbody td {
+	padding: 4px 4px 2px 4px;
+	border-bottom: 1px solid #D7E3EC;
+}
+.hkd-tbl5 tbody th {
+	font-weight: normal;
+}
+
+
+
+/*	Tarifrechner Unterlagen */
+.hkd-tbl6 {
+	clear: both;
+}
+.hkd-tbl6 table {
+	width: 100%;
+}
+.hkd-tbl6 tbody th, 
+.hkd-tbl6 tbody td {
+	padding: 4px 4px 2px 4px;
+	border-bottom: 1px solid #D7E3EC;
+}
+.hkd-tbl6 tbody th {
+	font-weight: normal;
+}
+
+.hkd-tbl6 .hkd-tbl-col-icon-1 {
+        width: 20px;
+}
+
+
+
+
+
+/*	Tarifrechner Auswahl */
+.hkd-tbl7 {
+	clear: both;
+	border-top: 1px solid #CCCCCC;
+	margin-top: 6px;
+}
+.hkd-tbl7 table {
+	width: 100%;
+}
+.hkd-tbl7 thead th, 
+.hkd-tbl7 tbody td,
+.hkd-tbl7 tfoot td {
+	padding: 6px 4px 4px 4px;
+	border-bottom: 1px solid #CCCCCC;
+	text-align: left;
+}
+
+
+.hkd-tbl7 tbody .hkd-td-thv td {
+	border-bottom: 1px solid #2d94e2;
+	padding-top: 30px;
+}
+
+
+
+
+.hkd-td-summe-gesamt {
+	padding-top: 100px;
+
+}
+.hkd-tbl7 tbody .hkd-td-summe-gesamt td {
+	border-top: 1px solid #848484;
+}
+
+
+
+
+.hkd-tbl7 tbody td.hkd-td-sum-gesamt {
+	border-bottom: 1px solid #0072A5;
+}
+
+.hkd-tbl7 thead .hkd-algn-rght {
+    text-align: right;
+}
+
+.hkd-tbl7 thead .hkd-algn-cntr,
+.hkd-tbl7 tbody .hkd-algn-cntr,
+.hkd-tbl7 tfoot .hkd-algn-cntr {
+    text-align: center;     
+}
+
+.hkd-tbl7 tfoot td {
+	padding: 4px;
+}
+.hkd-tbl7 thead th,
+.hkd-tbl7 tfoot td {
+	font-weight: normal;
+	padding: 9px 4px 6px 4px;
+}
+.hkd-tbl7 .hkd-tbl-first {
+	padding-left: 8px;
+}
+
+
+.hkd-tbl7 thead .hkd-tbl-first,
+.hkd-tbl7 tbody .hkd-tbl-first,
+.hkd-tbl7 tfoot .hkd-tbl-first  {
+	font-weight: normal;
+}
+
+
+.hkd-phv-sum-noborder tbody td {
+    border: none; 
+    padding-bottom: 20px;
+}
+
+
+
+
+.hkd-tbl7 tfoot td {
+	border-bottom: none;
+	padding-bottom: 40px;
+}
+
+
+.hkd-auswahl-phv-sum tfoot td,
+.hkd-auswahl-thv-sum tfoot td,
+.hkd-auswahl-bhv-sum tfoot td,
+.hkd-auswahl-hrv-sum tfoot td,
+.hkd-auswahl-ghv-sum tfoot td,
+.hkd-auswahl-uv-sum tfoot td,
+.hkd-auswahl-uvs-sum tfoot td {
+	border-bottom: none;
+	padding-bottom: 10px;
+}
+
+
+.hkd-auswahl-thv-config .hkd-tbl-auswahl-vac {
+        padding-top: 11px;
+}
+
+
+
+
+.hkd-tbl7 tbody td.hkd-td-noline {
+        border-bottom: none;
+}
+
+
+
+
+
+
+/* vertragsdaten */
+
+.hkd-tbl8 {
+	clear: both;
+}
+.hkd-tbl8 table {
+	width: 98.5%;
+}
+.hkd-tbl8 tbody td {
+	padding: 4px 4px 3px 4px;
+	border-bottom: 1px solid #ededed;
+}
+.hkd-tbl8 tbody td.hkd-has-doc {
+	padding-top: 2px;
+	padding-bottom: 1px;
+	vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+.hkd-auswahl-phv-config tbody .hkd-tbl-first,
+.hkd-auswahl-thv-config tbody .hkd-tbl-first,
+.hkd-auswahl-bhv-config tbody .hkd-tbl-first,
+.hkd-auswahl-ghv-config tbody .hkd-tbl-first,
+.hkd-auswahl-uv-config tbody .hkd-tbl-first,
+.hkd-auswahl-uv-config-ext tbody .hkd-tbl-first,
+.hkd-auswahl-uv-config-ext tbody .hkd-tbl-first,
+.hkd-auswahl-uv-config-ext tbody .hkd-tbl-person,
+.hkd-auswahl-uvs-config tbody .hkd-tbl-first,
+.hkd-auswahl-thv-config tbody .hkd-tbl-person,
+.hkd-auswahl-hrv-config tbody .hkd-tbl-paket  {
+	padding-left: 8px;
+	background-position: -150px 0;
+	background-repeat: repeat-y;
+}
+
+.hkd-auswahl-uv-config-ext tbody .hkd-tbl-first  {
+	background-position: -210px 0;
+}
+
+.hkd-auswahl-einfach tbody .hkd-tbl-first,
+.hkd-auswahl-uv-config-ext tbody .hkd-tbl-person,
+.hkd-auswahl-thv-config tbody .hkd-tbl-person,
+.hkd-auswahl-hrv-config tbody .hkd-tbl-paket    {
+	background-image: none;
+}
+
+
+
+
+.hkd-auswahl-phv-config th,
+.hkd-auswahl-phv-config td,
+.hkd-auswahl-phv-sum td,
+.hkd-auswahl-thv-config th,
+.hkd-auswahl-thv-config td,
+.hkd-auswahl-thv-sum td,
+.hkd-auswahl-bhv-config th,
+.hkd-auswahl-bhv-config td,
+.hkd-auswahl-bhv-sum td,
+.hkd-auswahl-hrv-config th,
+.hkd-auswahl-hrv-config td,
+.hkd-auswahl-hrv-sum td,
+.hkd-auswahl-ghv-config th,
+.hkd-auswahl-ghv-config td,
+.hkd-auswahl-ghv-sum td,
+.hkd-auswahl-uv-config th,
+.hkd-auswahl-uv-config td,
+.hkd-auswahl-uv-sum td,
+.hkd-auswahl-uv-config-ext th,
+.hkd-auswahl-uv-config-ext td,
+.hkd-auswahl-uv-sum td,
+.hkd-auswahl-uvs-config th,
+.hkd-auswahl-uvs-config td,
+.hkd-auswahl-uvs-sum td  {
+	vertical-align: middle;
+}
+
+
+
+.hkd-auswahl-phv-sum tbody td.hkd-td-sum,
+.hkd-auswahl-thv-sum tbody td.hkd-td-sum, 
+.hkd-auswahl-bhv-sum tbody td.hkd-td-sum,
+.hkd-auswahl-hrv-sum tbody td.hkd-td-sum,  
+.hkd-auswahl-ghv-sum tbody td.hkd-td-sum, 
+.hkd-auswahl-uv-sum tbody td.hkd-td-sum,
+.hkd-auswahl-uvs-sum tbody td.hkd-td-sum  { padding-top: 4px; }
+
+
+
+
+/* PHV */
+.hkd-auswahl-phv-config .hkd-tbl-col1 { width: 249px; }
+.hkd-auswahl-phv-config .hkd-tbl-col2 { width: 104px; }
+.hkd-auswahl-phv-config .hkd-tbl-col3 { width: 40px; }
+.hkd-auswahl-phv-config .hkd-tbl-col4 { width: 40px; }
+.hkd-auswahl-phv-config .hkd-tbl-col5 { width: 70px; }
+
+.hkd-auswahl-phv-sum .hkd-tbl-col1 { width: 504px; }
+
+
+
+/* THV */
+.hkd-auswahl-thv-config .hkd-tbl-col1 { width: 230px; }
+.hkd-auswahl-thv-config .hkd-tbl-col2 { width: 210px; }
+.hkd-auswahl-thv-sum .hkd-tbl-col1 { width: 440px; }
+
+
+/* PHV THV KOMBI */
+
+.hkd-auswahl_phv_thv_kombi .hkd-tbl-col1 { width: 243px; }
+.hkd-auswahl_phv_thv_kombi .hkd-tbl-col2 { width: 256px; }
+
+
+/* BHV */
+.hkd-auswahl-bhv-config .hkd-tbl-col1 { width: 290px; }
+.hkd-auswahl-bhv-config .hkd-tbl-col2 { width: 30px; }
+.hkd-auswahl-bhv-config .hkd-tbl-col3 { width: 66px; }
+.hkd-auswahl-bhv-config .hkd-tbl-col4 { width: 90px; }
+.hkd-auswahl-bhv-config .hkd-tbl-col5 { width: 43px; }
+
+/* 2015-10-23 */
+.hkd-auswahl-bhv-config .hkd-tbl-cols-5 .hkd-tbl-col2 { width: 30px; }
+.hkd-auswahl-bhv-config .hkd-tbl-cols-5 .hkd-tbl-col4 { width: 42px; }
+
+
+.hkd-auswahl-bhv-sum .hkd-tbl-col1 { width: 394px; }
+.hkd-auswahl-bhv-sum .hkd-tbl-col2 { width: 80px; }
+.hkd-auswahl-bhv-sum .hkd-tbl-col3 { width: 50px; }
+
+
+
+/* GHV */
+.hkd-auswahl-ghv-config .hkd-tbl-col1 { width: 340px; }
+.hkd-auswahl-ghv-config .hkd-tbl-col2 { width: 52px; }
+.hkd-auswahl-ghv-config .hkd-tbl-col3 { width: 170px; }
+.hkd-auswahl-ghv-config .hkd-tbl-col4 { width: 36px; }
+
+.hkd-auswahl-ghv-sum .hkd-tbl-col1 { width: 394px; }
+.hkd-auswahl-ghv-sum .hkd-tbl-col2 { width: 80px; }
+.hkd-auswahl-ghv-sum .hkd-tbl-col3 { width: 50px; }
+
+
+
+
+/* UV */
+.hkd-auswahl-uv-config .hkd-tbl-col1,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col1 {  }
+
+
+
+
+
+.hkd-auswahl-einfach .hkd-tbl-col1 { width: 210px; }
+.hkd-auswahl-einfach .hkd-thv-label { width: 210px;  }
+.hkd-auswahl-einfach .hkd-td-thv-single { width: 210px; }
+
+
+.hkd-auswahl-uv-config .hkd-tbl-col2,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col2 { width: 84px; }
+.hkd-auswahl-uv-config .hkd-tbl-col3,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col3 { width: 25px; }
+.hkd-auswahl-uv-config .hkd-tbl-col4,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col4 { width: 87px; }
+.hkd-auswahl-uv-config .hkd-tbl-col5,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col5 { width: 22px; }
+.hkd-auswahl-uv-config .hkd-tbl-col6,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col6 { width: 86px; }
+.hkd-auswahl-uv-config .hkd-tbl-col7,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col7 { width: 23px; }
+.hkd-auswahl-uv-config .hkd-tbl-col8,
+.hkd-auswahl-uv-config-ext .hkd-tbl-col8 { width: 83px; }
+
+.hkd-auswahl-einfach-3 .hkd-tbl-col1 { width: 210px; }
+
+.hkd-auswahl-einfach-3 .hkd-tbl-col2,
+.hkd-auswahl-einfach-3 .hkd-tbl-col4,
+.hkd-auswahl-einfach-3 .hkd-tbl-col6 { width: 85px; }
+
+.hkd-auswahl-einfach-3 .hkd-tbl-col3,
+.hkd-auswahl-einfach-3 .hkd-tbl-col5 { width: 20px; }
+
+.hkd-auswahl-einfach-3 .hkd-tbl-col7 { width: 30px; }
+.hkd-auswahl-einfach-3 .hkd-tbl-last { padding: 0;}
+
+
+
+.hkd-auswahl-uv-sum .hkd-tbl-col1 { width: 215px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col2 { width: 84px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col3 { width: 23px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col4 { width: 87px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col5 { width: 18px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col6 { width: 86px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col7 { width: 22px; }
+.hkd-auswahl-uv-sum .hkd-tbl-col8 { width: 83px; }
+
+
+
+/* UVS */
+.hkd-auswahl-uvs-config .hkd-tbl-col1 { width: 388px; }
+.hkd-auswahl-uvs-config .hkd-tbl-col2 { width: 88px; }
+.hkd-auswahl-uvs-config .hkd-tbl-col3 { width: 44px; }
+.hkd-auswahl-uvs-config .hkd-tbl-col4 { width: 88px; }
+
+.hkd-auswahl-uvs-sum .hkd-tbl-col1 { width: 390px; }
+.hkd-auswahl-uvs-sum .hkd-tbl-col2 { width: 88px; }
+.hkd-auswahl-uvs-sum .hkd-tbl-col3 { width: 44px; }
+.hkd-auswahl-uvs-sum .hkd-tbl-col4 { width: 88px; }
+
+
+
+.hkd-auswahl-uv-config thead th,
+.hkd-auswahl-uvs-config thead th,
+.hkd-auswahl-uv-config-ext thead th {
+     text-align: center;
+}
+
+.hkd-auswahl-uv-config thead th.hkd-tbl-first,
+.hkd-auswahl-uvs-config thead th.hkd-tbl-first,
+.hkd-auswahl-uv-config-ext thead th.hkd-tbl-first  {
+     text-align: left;
+}
+
+
+
+
+/* HRV 630 = */
+.hkd-auswahl-hrv-config .hkd-tbl-col1 { width: 200px;  } /* 270px; */
+.hkd-auswahl-hrv-config .hkd-tbl-col2 { width: 30px; }
+.hkd-auswahl-hrv-config .hkd-tbl-col3 { width: 70px; } /* 86px;*/
+.hkd-auswahl-hrv-config .hkd-tbl-col4 { width: 110px; } /* 90px */
+.hkd-auswahl-hrv-config .hkd-tbl-col5 { width: 110px; } /* 42px; */
+.hkd-auswahl-hrv-config .hkd-tbl-col6 { width: 110px; } /* 90px */
+.hkd-auswahl-hrv-config .hkd-tbl-col7 { width: 0px; }
+
+.hkd-auswahl-hrv-sum .hkd-tbl-col1 { width: 290px; } /* 386px;*/
+.hkd-auswahl-hrv-sum .hkd-tbl-col2 { width: 110px; }
+.hkd-auswahl-hrv-sum .hkd-tbl-col3 { width: 110px; }
+.hkd-auswahl-hrv-sum .hkd-tbl-col4 { width: 110px; }
+
+
+/* EINFACH */
+.hkd-auswahl-einfach-kombi-thv .hkd-tbl-col1 {
+	width: 308px
+}
+.hkd-auswahl-einfach-kombi-thv .hkd-tbl-col2 {
+	width: 200px
+}
+
+
+/*
+.hkd-tbl7 thead th, 
+.hkd-tbl7 tbody td,
+.hkd-tbl7 tfoot td {
+	border: 1px solid #CCCCCC;
+}
+*/
+
+
+/* neue Spaltenbreite für Sparte in der Vertragsliste */
+.hkd-tbl-col-sparte2{
+    width: 122px;
+}
+

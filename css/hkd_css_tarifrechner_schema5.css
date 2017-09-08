@@ -1,0 +1,243 @@
+/*******************************************************************************
+********************************************************************************
+	Project		: Haftpflichtkasse Darmstadt
+********************************************************************************
+	Export		: 2016-09-21
+******************************************************************************
+
+2016-09-21 #180 HRV neu, Pfeile entfernt
+
+*/
+
+
+/********************************** SCHEMATA (gruen) **********************
+default: hk blau
+*/
+
+/***** ALLGEMEIN **********************/
+
+/* dropdown tr wechsel */
+
+.hkd-tarifrechnerschema-5 #hkd-header .hkd-navi {
+       background-image: url(../images/schemata/5/hkd_gr1_001_032.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-ic2,
+.hkd-tarifrechnerschema-5 a.hkd-ic58 {
+       background-image: url(../images/schemata/5/hkd_ic_down.gif);
+}
+
+
+
+
+
+/* header verlauf */
+.hkd-tarifrechnerschema-5 .hkd-tarifrechner-header {
+       background-image: url(../images/schemata/5/hkd_tarif_header.jpg);
+}
+
+
+/* gruppe */
+.hkd-tarifrechnerschema-5 .hkd-tarif-eingaben .hkd-form-group-title .hkd-hd1 {
+      background-image: url(../images/schemata/5/hkd_gr1_001_032.gif);
+      padding-bottom: 6px;
+      border-top: 1px solid #DDD;
+      border-bottom: 1px solid #DDD;
+}
+
+
+
+
+
+
+/* info icon */
+
+.hkd-tarifrechnerschema-5 a.hkd-ic55 {
+	background-image: url(../images/schemata/5/hkd_ic_info.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-form-data .hkd-form-function input.hkd-form-submit {
+        border: 1px solid #a65524;
+}
+
+
+
+/***** AUSWAHL **********************/
+
+/* action auswahl */
+
+.hkd-tarifrechnerschema-5 .hkd-tarif-action a {
+        border: 1px solid #a65524;
+}
+
+
+
+
+/* form elemente */
+.hkd-tarifrechnerschema-5 .hkd-form-data select.hkd-form-select {
+	border: 1px solid #ABAAAA;
+	border-right-color: #E3E3E3;
+	border-bottom-color: #E3E3E3;
+}
+
+
+.hkd-tarifrechnerschema-5 a.hkd-ic57 {
+	background-image: url(../images/schemata/5/hkd_ic_tarif_leistungsuebersicht.gif);
+}
+
+.hkd-tarifrechnerschema-5 .hkd-tbl7 tfoot .hkd-tbl-first a,
+.hkd-tarifrechnerschema-5 .hkd-tarif-auswahl .hkd-form select,
+.hkd-tarifrechnerschema-5 .hkd-fmt-mark,
+.hkd-tarifrechnerschema-5 .hkd-ct-header a,
+.hkd-tarifrechnerschema-5 .hkd-bx9 .hkd-hl1 a,
+.hkd-tarifrechnerschema-5 .hkd-tbl7 thead th.hkd-tbl-tarif-mark,
+.hkd-tarifrechnerschema-5 .hkd-tbl7 tbody td.hkd-tbl-tarif-mark,
+.hkd-tarifrechnerschema-5 .hkd-tbl7 tfoot td.hkd-tbl-tarif-mark,
+.hkd-tarifrechnerschema-5 .hkd-tbl-betrag1,
+.hkd-tarifrechnerschema-5 .hkd-tarif-moderation,
+.hkd-tarifrechnerschema-5 #hkd-header .hkd-navi a,
+.hkd-tarifrechnerschema-5 .hkd-tarif-headline,
+.hkd-tarifrechnerschema-5 .hkd-tarif-action dl dt,
+.hkd-tarifrechnerschema-5 .hkd-tbl5 tbody .hkd-tbl-last,
+.hkd-tarifrechnerschema-5 .hkd-hl1,
+.hkd-tarifrechnerschema-5 .hkd-tarif-eingaben .hkd-bx8 dl dt,
+.hkd-tarifrechnerschema-5 .hkd-tarif-eingaben .hkd-form-group-title a   {
+	color: #a65524;
+}
+
+
+.hkd-tarifrechnerschema-5 .hkd-tooltip-content {
+       border:1px solid #a65524;
+}
+
+
+/* optionen bg */
+.hkd-tarifrechnerschema-5 .hkd-auswahl-phv-config tbody .hkd-tbl-first,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-thv-config tbody .hkd-tbl-first,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-bhv-config tbody .hkd-tbl-first,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-ghv-config tbody .hkd-tbl-first,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-uv-config tbody .hkd-tbl-first,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-uv-config-ext tbody .hkd-tbl-first,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-uv-config-ext tbody .hkd-tbl-first,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-uv-config-ext tbody .hkd-tbl-person,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-uvs-config tbody .hkd-tbl-first,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-thv-config tbody .hkd-tbl-person,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-hrv-config tbody .hkd-tbl-paket {
+        background-image: url(../images/schemata/5/hkd_tr_auswahl_bg.gif);
+}
+
+
+
+
+
+
+
+
+
+/* boxen */
+
+.hkd-tarifrechnerschema-5 .hkd-hd1 {
+	background-image: url(../images/schemata/5/hkd_gr2_001_038.gif);
+}
+
+.hkd-tarifrechnerschema-5 .hkd-bx7 {
+	background-image: url(../images/schemata/5/hkd_box_944_m.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-bx7 .hkd-bx-content {
+	background-image: url(../images/schemata/5/hkd_box_944_t.gif);
+}
+
+
+
+/* angebot */
+.hkd-tarifrechnerschema-5 .hkd-bx8 {
+	background-image: url(../images/schemata/5/hkd_box_630_m.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-bx8 .hkd-bx-content {
+	background-image: url(../images/schemata/5/hkd_box_630_t.gif);
+}
+
+
+
+
+
+.hkd-tarifrechnerschema-5 .hkd-bx9 .hkd-bx-content {
+        background-image: url(../images/schemata/5/hkd_box_303_t.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-bx10 .hkd-bx-content {
+        background-image: url(../images/schemata/5/hkd_box_630r_t.gif);
+}
+
+
+
+
+
+
+/* tabellen rechts */
+
+.hkd-tarifrechnerschema-5 .hkd-tarif-eingaben .hkd-bx9,
+.hkd-tarifrechnerschema-5 .hkd-tarif-auswahl .hkd-bx9,
+.hkd-tarifrechnerschema-5 .hkd-tarif-zusammenfassung .hkd-bx10 {
+       background-image: url(../images/schemata/5/hkd_gr6_bx9.gif);
+}
+
+
+.hkd-tarifrechnerschema-5 .hkd-tbl5 tbody th, 
+.hkd-tarifrechnerschema-5 .hkd-tbl5 tbody td,
+.hkd-tarifrechnerschema-5 .hkd-tbl6 tbody th, 
+.hkd-tarifrechnerschema-5 .hkd-tbl6 tbody td {
+	border-bottom: 1px solid #e1e8de;
+}
+
+.hkd-tarifrechnerschema-5 .hkd-bx9 .hkd-bx-content .hkd-hd1,
+.hkd-tarifrechnerschema-5 .hkd-bx10 .hkd-bx-content .hkd-hd1 {
+	padding: 8px 5px 7px 5px;
+	background-image: url(../images/schemata/5/hkd_gr5_bx9.gif);
+	background-repeat: repeat-x;
+}
+
+
+
+
+
+
+/* auswahl pfeile */
+
+.hkd-tarifrechnerschema-5 .hkd-auswahl-phv-config {
+       background-image: url(../images/schemata/5/hkd_tr_auswahl_arr_phv.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-auswahl-thv-config {
+       background-image: url(../images/schemata/5/hkd_tr_auswahl_arr_thv.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-auswahl-bhv-config {
+       background-image: url(../images/schemata/5/hkd_tr_auswahl_arr_bhv_2.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-bhv-single .hkd-auswahl-bhv-config {
+       background-image: url(../images/schemata/5/hkd_tr_auswahl_arr_bhv_1.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-auswahl-hrv-config {
+       /*background-image: url(../images/schemata/5/hkd_tr_auswahl_arr_hrv.gif);*/
+}
+.hkd-tarifrechnerschema-5 .hkd-auswahl-ghv-config {
+       background-image: url(../images/schemata/5/hkd_tr_auswahl_arr_ghv.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-auswahl-uv-config,
+.hkd-tarifrechnerschema-5 .hkd-auswahl-uv-config-ext {
+       background-image: url(../images/schemata/5/hkd_tr_auswahl_arr_uv_1.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-auswahl-uv-config-ext {
+       background-image: url(../images/schemata/5/hkd_tr_auswahl_arr_uv_2.gif);
+}
+.hkd-tarifrechnerschema-5 .hkd-auswahl-uvs-config {
+       background-image: url(../images/schemata/5/hkd_tr_auswahl_arr_bhv_2.gif);
+}
+
+
+
+/* angebot und antrag */
+
+.hkd-tarifrechnerschema-5 .hkd-state-1 { background-image: url(../images/schemata/5/hkd_ic_status_1.gif); }
+
+
+.hkd-tarifrechnerschema-5 .hkd-ic1, .hkd-tarifrechnerschema-5 a.hkd-ic58{background-image:url(../images/schemata/5/hkd_ic_up.gif)}
+.hkd-tarifrechnerschema-5 .hkd-bx-config .hkd-bx-config-flyout {background-color: #A65524;}
+.hkd-tarifrechnerschema-5 .hkd-ls4 a{color:#FFF}
+
